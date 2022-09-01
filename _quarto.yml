@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  title: "Laurent Rouvière"
+#  navbar:
+#    background: primary
+#    left:
+#      - href: index.qmd
+#        text: Home
+#      - about.qmd
+  sidebar: 
+    style: "docked"
+    search: true
+    background: orange
+    collapse-level: 3
+#    foreground: red
+    contents:
+      - index.qmd
+#      - section: "CV"
+#        contents:
+#          - index.qmd
+      - section: "Enseignements"
+        contents:
+          - enseignement.qmd
+          - section: "Supports de cours"
+            contents: 
+              - apprentissage_sup.qmd
+      - section: "Recherche"
+        contents:
+          - livres.qmd
+
+lang: fr
+
+format:
+  html:
+    backgroundcolor: white
+    theme: 
+      - united
+#      - darkly
+#      - custom.scss
+    css: styles.css
+    link-external-newwindow: true
+#    page-layout: full
+#    max-width: 18em
+
+editor: visual
+

@@ -1,0 +1,29 @@
+---
+title: "Présentation"
+---
+
+## Cours actuels à l'Université Rennes 2
+
+### Licence Miashs
+
+-   Introduction au machine learning en L1 (12h CM - 12h TD)
+
+-   Statistique inférentielle en L3 (24h CM - 24h TD)
+
+### Master Mathématiques Appliquées, Statistique
+
+-   Apprentissage statistique en M1 (16h CM - 8h TD)
+
+-   Visualisation des données en M1 (24h TD)
+
+-   Statistique en grande dimension en M2 (16h CM - 8h TD)
+
+------------------------------------------------------------------------
+
+## Cours dans d'autres formations
+
+-   *Compléments de machine learning* (notamment les SVM) et *Introduction aux graphes* dans le Master Data Science de l'Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d'Ivoire)
+
+-   *Dynamic data visualization* dans le MSC Statistics for smart data à l'Ensai
+
+-   *Statistique avec R* dans le Magistère Sciences du Sport et Education Physique à l'ENS Rennes
