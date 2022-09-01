@@ -19,10 +19,10 @@ Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu'e
 
 **Supports complet**
 
--   [slides](docs/machine_learning/cours.pdf)
--   [slides au format rapport](docs/machine_learning/cours_article.pdf) (pour impression)
--   [tutoriel sans corrigés](https://lrouviere.github.io/TUTO_ML), [codes R associés](docs/machine_learning/codes_sans_cor.R)
--   [tutoriel avec corrigés](https://lrouviere.github.io/TUTO_ML/correction) (pas toujours disponible), [code R associés](docs/machine_learning/codes_avec_cor.R)
+-   [slides](docs1/machine_learning/cours.pdf)
+-   [slides au format rapport](docs1/machine_learning/cours_article.pdf) (pour impression)
+-   [tutoriel sans corrigés](https://lrouviere.github.io/TUTO_ML), [codes R associés](docs1/machine_learning/codes_sans_cor.R)
+-   [tutoriel avec corrigés](https://lrouviere.github.io/TUTO_ML/correction) (pas toujours disponible), [code R associés](docs1/machine_learning/codes_avec_cor.R)
 
 ------------------------------------------------------------------------
 
@@ -35,9 +35,9 @@ Cette partie est restreinte à une introduction à l'apprentissage supervisé. O
 
 **Supports** :
 
--   [slides](docs/machine_learning/cours_app_sup_R2.pdf)
+-   [slides](docs1/machine_learning/cours_app_sup_R2.pdf)
 
--   [slides au format rapport](docs//machine_learning/cours_app_sup_R2_article.pdf)
+-   [slides au format rapport](docs1/machine_learning/cours_app_sup_R2_article.pdf)
 
 -   [tutoriel](https://lrouviere.github.io/TUTO_ML) (chapitres 1, 3 et 5)
 
@@ -46,10 +46,10 @@ Cette partie est restreinte à une introduction à l'apprentissage supervisé. O
 ### Formation continue
 
 -   Partie cours
-    -   [slides complet](docs/machine_learning/cours_cepe_intro_ml.pdf)
-    -   [slides au format rapport](docs/machine_learning/cours_article_cepe_intro_ml.pdf)
+    -   [slides complet](docs1/machine_learning/cours_cepe_intro_ml.pdf)
+    -   [slides au format rapport](docs1/machine_learning/cours_article_cepe_intro_ml.pdf)
 -   Tutoriel
-    -   [version non corrigée](docs/machine_learning/tuto_court_ml_sans_correc.html){.illustration}
-    -   [version corrigée](docs/machine_learning/tuto_court_ml_avec_correc.html), [en pdf](docs/machine_learning/tuto_court_ml.pdf)
-    -   [codes R](docs/machine_learning/tuto_court_ml.R)
-    -   [données ozone](docs/machine_learning/ozone.txt)
+    -   [version non corrigée](docs1/machine_learning/tuto_court_ml_sans_correc.html){.illustration}
+    -   [version corrigée](docs1/machine_learning/tuto_court_ml_avec_correc.html), [en pdf](docs1/machine_learning/tuto_court_ml.pdf)
+    -   [codes R](docs1/machine_learning/tuto_court_ml.R)
+    -   [données ozone](docs1/machine_learning/ozone.txt)

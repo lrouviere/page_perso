@@ -13,7 +13,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="20%"}
-[![](docs/livres/couverture_reg_avecR.jpg){width="139"}](https://regression-avec-r.github.io)
+[![](docs1/livres/couverture_reg_avecR.jpg){width="139"}](https://regression-avec-r.github.io)
 :::
 
 ::: {.column width="5%"}
@@ -34,7 +34,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="20%"}
-[![](docs/livres/R_stat_sc_donnees.png){width="137"}](https://r-stat-sc-donnees.github.io)
+[![](docs1/livres/R_stat_sc_donnees.png){width="137"}](https://r-stat-sc-donnees.github.io)
 :::
 
 ::: {.column width="5%"}
@@ -55,7 +55,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="20%"}
-[![](docs/livres/stat_avec-R_3.jpg){width="134"}](https://husson.github.io/StatR.html)
+[![](docs1/livres/stat_avec-R_3.jpg){width="134"}](https://husson.github.io/StatR.html)
 :::
 
 ::: {.column width="5%"}
@@ -76,7 +76,7 @@ editor: visual
 
 ::: columns
 ::: {.column width="20%"}
-![](docs/livres/RforStat_small.jpg){width="138"}
+![](docs1/livres/RforStat_small.jpg){width="138"}
 :::
 
 ::: {.column width="5%"}
