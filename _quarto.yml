@@ -27,6 +27,7 @@ website:
           - section: "Supports de cours"
             contents: 
               - apprentissage_sup.qmd
+              - autres_cours.qmd
       - section: "Recherche"
         contents:
           - livres.qmd
