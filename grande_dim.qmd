@@ -1,3 +1,27 @@
 ---
 title: "Statistique en grande dimension"
 ---
+
+Ce cours, d'un niveau M2, propose quelques stratégies pour appréhender le problème de la `grande dimension` dans le modèle linéaire. Les thèmes suivants seront abordés :
+
+- Présentation du `fléau de la dimension`
+- `Régression sur composantes` : présentation des algorithmes PCR et PLS
+- `Régressions pénalisées` : régularisation à l’aide de pénalités de type Ridge/Lasso
+- `Modèle additif` : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.
+
+### Documents de cours
+
+- [slides](docs1/grande_dim/cours2022.pdf)
+- [slides au format rapport](docs1/grande_cours_article2022.pdf)
+- [tutoriel](https://lrouviere.github.io/TUTO_GRANDE_DIM/)
+
+### Données
+
+- [ad_data.txt](docs1/grande_dim/ad_data.txt)
+- [ech_signal.csv](docs1/grande_dim/ech_signal.csv)
+- [ozone.txt](docs1/grande_dim/ozone.txt)
+- [ozone_complet.txt](docs1/grande_dim/ozone_complet.txt)
+- [panne.txt](docs1/grande_dim/panne.txt)
+- [signal.txt](docs1/grande_dim/signal.csv)
+
+
