@@ -32,6 +32,7 @@ website:
       - section: "Recherche"
         contents:
           - livres.qmd
+          - articles.qmd
 
 lang: fr
 
@@ -43,7 +44,13 @@ format:
 #      - darkly
 #      - custom.scss
     css: styles.css
+    page-layout: full
+    linkcolor: red
     link-external-newwindow: true
+    fontsize: 12pt
+    cite-method: citeproc
+    biblio-style: apalike
+    biblio-title: "Arti"
 #    page-layout: full
 #    max-width: 18em
 

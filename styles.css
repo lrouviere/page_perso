@@ -4,7 +4,7 @@
 .content {
   margin-right: 0px;
   margin-left: 0px;
-  width: 500px;
+  width: 1500px;
   clear: both;
   overflow: auto; 
   background: #1abc9c; 
@@ -50,14 +50,14 @@ display: block;
 
 /*
 .content {
-  margin-left: 175px;
+  margin-left: 150px;
 }
 
 .sidebar {
   min-width: 350px ;
 }
-
 */
+
 
 h1 {
 /*	   padding-top: 50px;

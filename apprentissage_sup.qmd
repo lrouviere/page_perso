@@ -26,7 +26,7 @@ Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu'e
 
 ------------------------------------------------------------------------
 
-### Cours d'apprentissage supervisé en M1 MAS
+### Cours d'apprentissage supervisé en M1 MAS {#app-sup-M1MAS}
 
 Cette partie est restreinte à une introduction à l'apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :
 

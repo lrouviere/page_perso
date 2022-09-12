@@ -1,0 +1,49 @@
+---
+title: "Articles"
+editor: visual
+fontsize: 8pt
+format: 
+  html:
+    fontsize: 8pt
+#bibliography: bib_articles.bib
+#biblio-style: plain
+#biblio-title: "Articles"
+#nocite: |
+#  @*
+---
+
+```{=html}
+<!---
+::: {#refs title="biblio"}
+:::
+--->
+```
+-   Klutchnikoff, N., Poterie, A. et Rouvière, L. (2022). [Statistical analysis of a hierarchical clustering algorithm with outliers](https://hal.archives-ouvertes.fr/hal-03153805v2){style="color: blue"}, *Journal of Multivariate Analysis,* **Vol.192***,* [DOI:\<10.1016/j.jmva.2022.105075\>](10.1016/j.jmva.2022.105075)
+
+-   Dufresne, S., Richard, C., Dieumegard, A., Orfila, L., Delpon, G., Chiavassa, S., Martin, B., Rouvière, L., Escoffre, J.M., Oujagir, E., de Senneville, B.D., Bouakaz, A., Rioux-Leclerq, N., Potiron, V. et Rébillard, A (2021). [Voluntary Wheel Running Does Not Enhance Radiotherapy Efficiency in a Preclinical Model of Prostate Cancer: The Importance of Physical Activity Modalities?](https://hal.archives-ouvertes.fr/inserm-03409985){style="color: blue"} *Cancers*, **Vol**. 13(21), [DOI:\<10.3390/cancers13215402\>](http://dx.doi.org/10.3390/cancers13215402)
+
+-   De Müllenheim, P.Y., Rouvière, L. , Emily, M., Chaudru, E., Kaladji, A., Mahé, G. et Le Faucheur, A (2021). [Shoud I stay or should I go now?" Recovery time effect on walking capacity in symptomatic peripheral artery disease](https://hal.archives-ouvertes.fr/hal-03246582v1){style="color: blue"}. *Journal of applied physiology*. **Vol**. 131(1), 207-219. [DOI:\<10.1152/japplphysiol.00441.2020\>](https://journals.physiology.org/doi/full/10.1152/japplphysiol.00441.2020)
+
+-   A. Poterie, J.F. Dupuy, V. Monbet et L. Rouvière (2019). [Classification tree algorithm for grouped variables](https://hal.archives-ouvertes.fr/hal-01623570){style="color: blue"}. Computational statistics. Vol. 34, pp. 1613-1648. [DOI:\<10.1007/s00180-019-00894-y\>](http://dx.doi.org/10.1007/s00180-019-00894-y){style="color: blue"}
+
+-   G. Biau, B. Cadre et L. Rouvière (2019). [Accelerated gradient boosting](https://hal.archives-ouvertes.fr/hal-01723843v2){style="color: blue"}. *Machine Learning*, **Vol.** 19, pp. 971-992. Télécharger [AGB](https://github.com/lrouviere/AGB). [DOI:\<10.1007/s10994-019-05787-1\>](http://dx.doi.org/10.1007/s10994-019-05787-1).
+
+-   N. Hengartner, E. Matzner-Løber, L. Rouvière et T. Burr (2018). [Multiplicative bias corrected nonparametric smoothers](https://hal.archives-ouvertes.fr/hal-00408696v3){style="color: blue"}. In *Nonparametric statistics, Springer proceedings in Mathematics and Statistics*, 3rd ISNPS, Avignon, 2016. [DOI:\<10.1007/978-3-319-96941-1_3\>](https://link.springer.com/chapter/10.1007/978-3-319-96941-1_3)
+
+-   S. Auray, N. Klutchnikoff et L. Rouvière (2015). [On clustering procedure and nonparametric mixture estimation](https://hal.archives-ouvertes.fr/hal-01113848v1){style="color: blue"}. *Electronic Journal of Statistics*, **Vol.** 9, pp. 266-297. [DOI:\<10.1214/15-EJS995\>](https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-9/issue-1/On-clustering-procedures-and-nonparametric-mixture-estimation/10.1214/15-EJS995.full)
+
+-   T. Burr, N. Hengartner, E. Matzner-Løber, S. Myers et L. Rouvière (2011), [Smoothing Low Resolution Spectral Data](https://hal.archives-ouvertes.fr/hal-01260107v1){style="color: blue"}. *IEEE Transactions on Nuclear Science*, **Vol.** 57, pp. 2831--2840. [DOI:\<10.1109/TNS.2010.2054110\>](https://ieeexplore.ieee.org/document/5557776).
+
+-   G. Biau, B. Cadre et L. Rouvière (2010). [Statistical analysis of k-nearest neighbor collaborative recommendation](https://hal.archives-ouvertes.fr/hal-00367480v2){style="color: blue"}. *The Annals of Statistics*, **Vol.** 38, pp. 1568--1592.[DOI:\<10.1214/09-AOS759\>](https://projecteuclid.org/journals/annals-of-statistics/volume-38/issue-3/Statistical-analysis-of-k-nearest-neighbor-collaborative-recommendation/10.1214/09-AOS759.full)
+
+-   G. Biau, O. Biau et L. Rouvière (2008). [Nonparametric forecasting of the manufacturing output growth with firm-level survey data](https://hal.archives-ouvertes.fr/hal-00459438v1){style="color: blue"}. *Journal of Business Cycle Measurement and Analysis*, **Vol.** 3 , pp. 317--332. [DOI:\<10.1787/17293626\>](https://doi.org/10.1787/jbcma-v2007-art15-en)
+
+-   A. Berlinet, G. Biau et L. Rouvière (2008). [Functional classification with wavelets](https://hal.archives-ouvertes.fr/hal-00459437v2){style="color: blue"}. *Annales de l'ISUP*, **Vol.** 52, pp. 61--80.
+
+-   L. Rouvière (2006). [Sélection d'histogrammes modifiés itérés](https://hal.archives-ouvertes.fr/hal-00459436v1){style="color: blue"}. *Journal de la Société Française de Statistique*, **Vol.** 147 , pp. 65--83.
+
+-   A. Berlinet, G. Biau et L. Rouvière (2005). [Optimal $L_1$ bandwidth selection for variable kernel density estimates](https://hal.archives-ouvertes.fr/hal-03775536v1){style="color: blue"}. *Statistics and Probability Letters*, **Vol.** 74, pp. 116--128. [DOI:\<10.1016/j.spl.2005.04.036\>](https://doi.org/10.1016/j.spl.2005.04.036)
+
+-   A. Berlinet, G. Biau et L. Rouvière (2005). Parameter selection in modified histogram estimates. *Statistics*, **Vol.** 39 , pp. 91--105. [DOI:\<10.1080/02331880500059713\>](https://doi.org/10.1080/02331880500059713)
+
+-   A. Berlinet et L. Rouvière (2005). Effective construction of modified histograms in higher dimensions. In *Statistical Modeling and Analysis for Complex Data Problems*, ed P. Duchesne et B. Rémillard. [10.1007/0-387-24555-3_6](https://doi.org/10.1007/0-387-24555-3_6)
