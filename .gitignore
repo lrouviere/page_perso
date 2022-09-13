@@ -5,6 +5,7 @@
 
 *.qmd
 *.tex
+*.bib
 *.R
 
 /.quarto/
