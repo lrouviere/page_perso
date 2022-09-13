@@ -49,6 +49,13 @@
     "text": "Cours dans d’autres formations\n\nCompléments de machine learning (notamment les SVM) et Introduction aux graphes dans le Master Data Science de l’Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d’Ivoire)\nDynamic data visualization dans le MSC Statistics for smart data à l’Ensai\nStatistique avec R dans le Magistère Sciences du Sport et Education Physique à l’ENS Rennes"
   },
   {
+    "objectID": "visualisationR.html",
+    "href": "visualisationR.html",
+    "title": "Logciel R - Visualisation",
+    "section": "",
+    "text": "Logiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\nJeux de données\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\n\nVisualisation\n\nozone.txt\ntaches_solaires.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\nCartes leaflet\n\nsta.Paris.csv"
+  },
+  {
     "objectID": "articles.html",
     "href": "articles.html",
     "title": "Articles",

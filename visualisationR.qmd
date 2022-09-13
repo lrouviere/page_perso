@@ -1,0 +1,43 @@
+---
+title: "Logciel R - Visualisation"
+---
+
+Ce cours présente une introduction au `logiciel R` et aux principaux outils de `visualisation` avec ce logiciel. Les thèmes suivants sont abordés :
+
+-   Logiciel R
+    -   **Présentation du logiciel**, environnement `Rstudio`, reporting avec `quarto` et `Rmarkdown`
+    -   **Objets R**
+    -   **Manipulation des données** (essentiellement avec `dplyr`)
+-   Visualisation
+    -   **Visualisation statique** (représentations standards et avec `ggplot2`)
+    -   **Cartographie**
+        -   statique avec `ggmap` et `sf`
+        -   dynamiques avec `leaflet`
+    -   **Visualisation dynamique**
+        -   graphes standards avec `RamCharts`et `plotly`
+        -   réseaux avec `visNetwork`
+        -   tableaux de bord avec `flexdashboard`
+-   Un peu de statistique avec **R**
+    -   **Régression** : ajustement de modèles, formules, prévisions...
+    -   **Introduction au problème de l'estimation**, lois de probabilités, notions d'estimateurs, performance d'estimateurs, intervalles de confiance.
+
+**Supports complet**
+
+-   [slides](docs1/visuR/cours.pdf)
+-   [slides au format rapport](docs1/visuR/cours_article.pdf) (pour impression)
+-   [tutoriel](https://lrouviere.github.io/TUTO_VISU_R/)
+
+**Jeux de données**
+
+-   Manipulation de données
+    -   [mydata.csv](docs1/visuR/mydata.csv)
+    -   [mydata2.csv](docs1/visuR/mydata2.csv)
+    -   [piscines.csv](docs1/visuR/piscines.csv)
+    -   [tauxchomage.csv](docs1/visuR/tauxchomage.csv)
+-   Visualisation
+    -   [ozone.txt](docs1/visuR/ozone.txt)
+    -   [taches_solaires.csv](docs1/visuR/taches_solaires.csv)
+    -   [FrenchOpen-men-2013.csv](docs1/visuR/FrenchOpen-men-2013.csv)
+    -   [Wimbledon-men-2013.csv](docs1/visuR/Wimbledon-men-2013.csv)
+-   Cartes leaflet
+    -   [sta.Paris.csv](docs1/visuR/sta.Paris.csv)

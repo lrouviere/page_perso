@@ -33,6 +33,7 @@ Cette partie est restreinte à une introduction à l'apprentissage supervisé. O
 -   **Notions de risque et calcul de risque en apprentissage supervisé**, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)
 -   **Méthodes par arbres** : algorithmes CART et forêts aléatoires
 
+
 **Supports** :
 
 -   [slides](docs1/machine_learning/cours_app_sup_R2.pdf)

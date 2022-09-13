@@ -12,7 +12,7 @@ title: "Présentation"
 
 ### [Master Mathématiques Appliquées, Statistique](https://sites-formations.univ-rennes2.fr/master-mas/)
 
--   [Apprentissage statistique en M1](enseignement.qmd#app-sup-M1MAS) (16h CM - 8h TD)
+-   [Apprentissage statistique en M1](apprentissage_sup.qmd#app-sup-M1MAS){style="color: green"} (16h CM - 8h TD)
 
 -   Visualisation des données en M1 (24h TD)
 
