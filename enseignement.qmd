@@ -26,4 +26,4 @@ title: "Présentation"
 
 -   *Dynamic data visualization* dans le MSC Statistics for smart data à l'Ensai
 
--   *Statistique avec R* dans le Magistère Sciences du Sport et Education Physique à l'ENS Rennes
+-   [Statistique avec R](visualisationR.qmd#visuR-staps-ens){style="color: green"} dans le Magistère Sciences du Sport et Education Physique à l'ENS Rennes

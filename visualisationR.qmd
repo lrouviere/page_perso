@@ -21,23 +21,52 @@ Ce cours présente une introduction au `logiciel R` et aux principaux outils de 
     -   **Régression** : ajustement de modèles, formules, prévisions...
     -   **Introduction au problème de l'estimation**, lois de probabilités, notions d'estimateurs, performance d'estimateurs, intervalles de confiance.
 
-**Supports complet**
+#### Supports complet
 
 -   [slides](docs1/visuR/cours.pdf)
 -   [slides au format rapport](docs1/visuR/cours_article.pdf) (pour impression)
 -   [tutoriel](https://lrouviere.github.io/TUTO_VISU_R/)
 
-**Jeux de données**
+#### Jeux de données
 
--   Manipulation de données
+- Logiciel R
+  -   Manipulation de données
     -   [mydata.csv](docs1/visuR/mydata.csv)
     -   [mydata2.csv](docs1/visuR/mydata2.csv)
     -   [piscines.csv](docs1/visuR/piscines.csv)
     -   [tauxchomage.csv](docs1/visuR/tauxchomage.csv)
--   Visualisation
-    -   [ozone.txt](docs1/visuR/ozone.txt)
-    -   [taches_solaires.csv](docs1/visuR/taches_solaires.csv)
     -   [FrenchOpen-men-2013.csv](docs1/visuR/FrenchOpen-men-2013.csv)
     -   [Wimbledon-men-2013.csv](docs1/visuR/Wimbledon-men-2013.csv)
--   Cartes leaflet
-    -   [sta.Paris.csv](docs1/visuR/sta.Paris.csv)
+- Visualisation
+  - graphes classiques et `ggplot2`
+    -   [ozone.txt](docs1/visuR/ozone.txt)
+    -   [taches_solaires.csv](docs1/visuR/taches_solaires.csv)
+  - Cartes
+    - [dpt.zip](docs1/visuR/dpt.zip)
+    - [postesSynop.csv](docs1/visuR/postesSynop.csv)
+    - [synop.2018011215.csv](docs1/visuR/synop.2018011215.csv)
+    - [tauxchomage.csv](docs1/visuR/tauxchomage.csv)
+    - [villes_fr.csv](docs1/visuR/villes_fr.csv)
+    - [coord_ville_exo1.csv](docs1/visuR/coord_ville_exo1.csv) (géolocalisation des villes pour l'exercice 1 si besoin)
+    - [coord_ville_nc.csv](docs1/visuR/coord_ville_nc.csv) (géolocalisation des villes pour la partie sf si besoin)
+    - [donnees_temp_fr.csv](docs1/visuR/donnees_temp_fr.csv) (données température pour le challenge si besoin)
+    - [station_temp_fr.csv](docs1/visuR/station_temp_fr.csv) (données station pour le challenge si besoin)
+    - [regions-20180101-shp.zip](https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/#_)
+    - [sta.Paris.csv](docs1/visuR/sta.Paris.csv) (données sur les stations velib si besoin)
+  - Visualisation dynamique
+    - [Dataset1-Media-Example-NODES.csv](Dataset1-Media-Example-NODES.csv)
+    - [Dataset1-Media-Example-EDGES.csv](Dataset1-Media-Example-EDGES.csv)
+
+
+
+## Cours Staps-ENS Rennes {#visuR-staps-ens}
+
+Ce cours de 20h propose une introduction au logiciel **R** et à la modélisation statistique.
+
+-   [slides](docs1/visuR/cours.pdf) : jusqu'à `ggplot2`
+-   [slides au format rapport](docs1/visuR/cours_article.pdf) (pour impression) : jusqu'à `ggplot2`
+-   [tutoriel](https://lrouviere.github.io/TUTO_VISU_R/) : partie 1 + `gplot2` + partie 3
+
+## Master SNS
+
+## Master MAS

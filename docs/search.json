@@ -53,7 +53,28 @@
     "href": "visualisationR.html",
     "title": "Logciel R - Visualisation",
     "section": "",
-    "text": "Logiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\nJeux de données\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\n\nVisualisation\n\nozone.txt\ntaches_solaires.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\nCartes leaflet\n\nsta.Paris.csv"
+    "text": "Ce cours présente une introduction au logiciel R et aux principaux outils de visualisation avec ce logiciel. Les thèmes suivants sont abordés :"
+  },
+  {
+    "objectID": "visualisationR.html#visuR-staps-ens",
+    "href": "visualisationR.html#visuR-staps-ens",
+    "title": "Logciel R - Visualisation",
+    "section": "Cours Staps-ENS Rennes",
+    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\ntutoriel : partie 1 + gplot2 + partie 3"
+  },
+  {
+    "objectID": "visualisationR.html#master-sns",
+    "href": "visualisationR.html#master-sns",
+    "title": "Logciel R - Visualisation",
+    "section": "Master SNS",
+    "text": "Master SNS"
+  },
+  {
+    "objectID": "visualisationR.html#master-mas",
+    "href": "visualisationR.html#master-mas",
+    "title": "Logciel R - Visualisation",
+    "section": "Master MAS",
+    "text": "Master MAS"
   },
   {
     "objectID": "articles.html",
