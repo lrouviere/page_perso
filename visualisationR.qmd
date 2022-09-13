@@ -1,5 +1,5 @@
 ---
-title: "Logciel R - Visualisation"
+title: "Logiciel R - Visualisation"
 ---
 
 Ce cours présente une introduction au `logiciel R` et aux principaux outils de `visualisation` avec ce logiciel. Les thèmes suivants sont abordés :

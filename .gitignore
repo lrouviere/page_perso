@@ -3,4 +3,8 @@
 .RData
 .Ruserdata
 
+*.qmd
+*.tex
+*.R
+
 /.quarto/
