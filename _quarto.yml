@@ -10,11 +10,12 @@ website:
 #      - href: index.qmd
 #        text: Home
 #      - about.qmd
+  reader-mode: true
   sidebar: 
     style: "docked"
     search: true
     background: orange
-    collapse-level: 3
+    collapse-level: 2
 #    foreground: red
     contents:
       - index.qmd
