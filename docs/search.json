@@ -18,7 +18,7 @@
     "href": "index.html#fonctions-et-responsabilités",
     "title": "Fonctions et CV",
     "section": "Fonctions et responsabilités",
-    "text": "Fonctions et responsabilités\n\nEnseignant chercheur en Mathématiques Appliquées, affilié au département MIASHS et à la composante Rennes 2 de l’équipe de Statistique de l’IRMAR.\nCo-responsable du Master Mathématiques Appliquées, Statistique (MAS), Universités de Rennes 1 et Rennes 2, Agrocampus Ouest, Ensai, INSA Rennes\nResponsable du parcours Science des données, Intelligence Artificielle du Master MAS, Université Rennes 2."
+    "text": "Fonctions et responsabilités\n\nEnseignant chercheur en Mathématiques Appliquées, affilié au département MIASHS et à la composante Rennes 2 de l’équipe de Statistique de l’IRMAR.\nCo-responsable du Master Mathématiques Appliquées, Statistique (MAS), Universités de Rennes 1 et Rennes 2, Agrocampus Ouest, Ensai, INSA Rennes\nResponsable du parcours Science des données, Intelligence Artificielle du Master MAS, Université Rennes 2."
   },
   {
     "objectID": "index.html#parcours",
@@ -60,7 +60,7 @@
     "href": "visualisationR.html#visuR-staps-ens",
     "title": "Logiciel R - Visualisation",
     "section": "Cours Staps-ENS Rennes",
-    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\ntutoriel : partie 1 + gplot2 + partie 3"
+    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\ntutoriel : partie 1 + ggplot2 + partie 3"
   },
   {
     "objectID": "visualisationR.html#master-sns",
