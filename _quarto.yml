@@ -11,7 +11,7 @@ website:
 #        text: Home
 #      - about.qmd
   reader-mode: true
-  site-path: "/page_perso/"
+  site-path: "/page_perso/" #important pour la page 404.html
   page-navigation: true
   sidebar: 
     style: "docked"
