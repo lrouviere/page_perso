@@ -60,14 +60,14 @@
     "href": "visualisationR.html#visuR-staps-ens",
     "title": "Logiciel R - Visualisation",
     "section": "Cours Staps-ENS Rennes",
-    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\ntutoriel : partie 1 + ggplot2 + partie 3"
+    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel : partie 1 + ggplot2 + partie 3"
   },
   {
     "objectID": "visualisationR.html#master-sns",
     "href": "visualisationR.html#master-sns",
     "title": "Logiciel R - Visualisation",
     "section": "Master SNS",
-    "text": "Master SNS\nCe cours de 24h propose une introduction au logiciel R et à quelques packages de visualisation (y compris les applications web avec shiny).\n\nslides - Partie R\nslides - Partie R au format rapport (pour impression)\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel"
+    "text": "Master SNS\nCe cours de 24h propose une introduction au logiciel R et à quelques packages de visualisation (y compris les applications web avec shiny).\n\nslides - Partie R\nslides - Partie R au format rapport (pour impression)\ntutoriel"
   },
   {
     "objectID": "visualisationR.html#master-mas",
