@@ -64,7 +64,8 @@ h1 {
 	   font-size: 50px;
 		 font-family: cursive;
 		 background-color: teal; */
-		 color: #15056C;
+		 color: #404A80; /*#15056C;*/
+		 font-weight: bold;
 /*		 color: teal;
 		 opacity: 0.9; */
 	  }
@@ -74,7 +75,10 @@ h2 {
 	   font-size: 50px;
 		 font-family: cursive;
 		 background-color: teal; */
-		 color: blue;
+		 color: #B60FF4;
 /*		 opacity: 0.9; */
 	  }
 
+h4 {
+  color: #18398C;
+}
