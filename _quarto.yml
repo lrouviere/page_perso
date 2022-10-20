@@ -29,6 +29,7 @@ website:
               - apprentissage_sup.qmd
               - visualisationR.qmd
               - grande_dim.qmd
+              - graphes.qmd
               - autres_cours.qmd
       - section: "Recherche"
         contents:

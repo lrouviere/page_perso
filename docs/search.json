@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "graphes.html",
+    "href": "graphes.html",
+    "title": "Graph Mining",
+    "section": "",
+    "text": "On présente dans ce cours une introduction aux graphes. On introduira notamment"
+  },
+  {
+    "objectID": "graphes.html#graphes",
+    "href": "graphes.html#graphes",
+    "title": "Graph Mining",
+    "section": "Documents de cours",
+    "text": "Documents de cours\n\nslides\nslides au format rapport\ntutoriel\ndonnées pour le tutoriel :\n\nMedia edges\nMedia nodes\nAmis\nLes misérables"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Fonctions et CV",
@@ -60,7 +74,7 @@
     "href": "visualisationR.html#visuR-staps-ens",
     "title": "Logiciel R - Visualisation",
     "section": "Cours Staps-ENS Rennes",
-    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel : partie 1 + ggplot2 + partie 3"
+    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel : partie 1 + ggplot2 + partie 3\nCC 2022 : sujet, corrigé"
   },
   {
     "objectID": "visualisationR.html#visuR-SNS",

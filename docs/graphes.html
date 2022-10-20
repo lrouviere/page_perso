@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Laurent Rouvière - Logiciel R - Visualisation</title>
+<title>Laurent Rouvière - Graph Mining</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,8 +25,8 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./grande_dim.html" rel="next">
-<link href="./apprentissage_sup.html" rel="prev">
+<link href="./autres_cours.html" rel="next">
+<link href="./grande_dim.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +66,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Logiciel R - Visualisation</h1>
+      <h1 class="quarto-secondary-nav-title">Graph Mining</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -129,7 +129,7 @@ ul.task-list{list-style: none;}
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./visualisationR.html" class="sidebar-item-text sidebar-link active">Logiciel R - Visualisation</a>
+  <a href="./visualisationR.html" class="sidebar-item-text sidebar-link">Logiciel R - Visualisation</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -139,7 +139,7 @@ ul.task-list{list-style: none;}
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./graphes.html" class="sidebar-item-text sidebar-link">Graph Mining</a>
+  <a href="./graphes.html" class="sidebar-item-text sidebar-link active">Graph Mining</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -175,24 +175,13 @@ ul.task-list{list-style: none;}
     </div>
 </nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
-  <li><a href="#visuR-staps-ens" id="toc-visuR-staps-ens" class="nav-link" data-scroll-target="#visuR-staps-ens">Cours Staps-ENS Rennes</a></li>
-  <li><a href="#visuR-SNS" id="toc-visuR-SNS" class="nav-link" data-scroll-target="#visuR-SNS">Master SNS</a></li>
-  <li><a href="#master-mas" id="toc-master-mas" class="nav-link" data-scroll-target="#master-mas">Master MAS</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-body" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Logiciel R - Visualisation</h1>
+<h1 class="title d-none d-lg-block">Graph Mining</h1>
 </div>
 
 
@@ -206,127 +195,26 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<section id="présentation" class="level2">
-<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
-<p>Ce cours présente une introduction au <code>logiciel R</code> et aux principaux outils de <code>visualisation</code> avec ce logiciel. Les thèmes suivants sont abordés :</p>
+<p>On présente dans ce cours une introduction aux <strong>graphes</strong>. On introduira notamment</p>
 <ul>
-<li>Logiciel R
+<li>les statistiques descriptives classiques associées à ces objets</li>
+<li>les principaux modèles de graphe</li>
+<li>la détection de communautés</li>
+</ul>
+<section id="graphes" class="level2">
+<h2 class="anchored" data-anchor-id="graphes">Documents de cours</h2>
 <ul>
-<li><strong>Présentation du logiciel</strong>, environnement <code>Rstudio</code>, reporting avec <code>quarto</code> et <code>Rmarkdown</code></li>
-<li><strong>Objets R</strong></li>
-<li><strong>Manipulation des données</strong> (essentiellement avec <code>dplyr</code>)</li>
-</ul></li>
-<li>Visualisation
+<li><a href="cours_graphes.pdf">slides</a></li>
+<li><a href="cours_article_graphes.pdf">slides au format rapport</a></li>
+<li><a href="https://lrouviere.github.io/TUTO_GRAPHES">tutoriel</a></li>
+<li>données pour le tutoriel :
 <ul>
-<li><strong>Visualisation statique</strong> (représentations standards et avec <code>ggplot2</code>)</li>
-<li><strong>Cartographie</strong>
-<ul>
-<li>statique avec <code>ggmap</code> et <code>sf</code></li>
-<li>dynamiques avec <code>leaflet</code></li>
-</ul></li>
-<li><strong>Visualisation dynamique</strong>
-<ul>
-<li>graphes standards avec <code>RamCharts</code>et <code>plotly</code></li>
-<li>réseaux avec <code>visNetwork</code></li>
-<li>tableaux de bord avec <code>flexdashboard</code></li>
-</ul></li>
-</ul></li>
-<li>Un peu de statistique avec <strong>R</strong>
-<ul>
-<li><strong>Régression</strong> : ajustement de modèles, formules, prévisions…</li>
-<li><strong>Introduction au problème de l’estimation</strong>, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.</li>
+<li><a href="docs1/graphes/Dataset1-Media-Example-EDGES.csv">Media edges</a></li>
+<li><a href="docs1/graphes/Dataset1-Media-Example-NODES.csv">Media nodes</a></li>
+<li><a href="docs1/graphes/Friendship-network_data_2013.csv">Amis</a></li>
+<li><a href="docs1/graphes/lesmis.gml">Les misérables</a></li>
 </ul></li>
 </ul>
-<section id="supports-complet" class="level4">
-<h4 class="anchored" data-anchor-id="supports-complet">Supports complet</h4>
-<ul>
-<li><a href="docs1/visuR/cours.pdf">slides</a></li>
-<li><a href="docs1/visuR/cours_article.pdf">slides au format rapport</a> (pour impression)</li>
-<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
-</ul>
-</section>
-<section id="jeux-de-données" class="level4">
-<h4 class="anchored" data-anchor-id="jeux-de-données">Jeux de données</h4>
-<ul>
-<li>Logiciel R
-<ul>
-<li>Manipulation de données
-<ul>
-<li><a href="docs1/visuR/mydata.csv">mydata.csv</a></li>
-<li><a href="docs1/visuR/mydata2.csv">mydata2.csv</a></li>
-<li><a href="docs1/visuR/piscines.csv">piscines.csv</a></li>
-<li><a href="docs1/visuR/tauxchomage.csv">tauxchomage.csv</a></li>
-<li><a href="docs1/visuR/FrenchOpen-men-2013.csv">FrenchOpen-men-2013.csv</a></li>
-<li><a href="docs1/visuR/Wimbledon-men-2013.csv">Wimbledon-men-2013.csv</a></li>
-</ul></li>
-</ul></li>
-<li>Visualisation
-<ul>
-<li>graphes classiques et <code>ggplot2</code>
-<ul>
-<li><a href="docs1/visuR/ozone.txt">ozone.txt</a></li>
-<li><a href="docs1/visuR/taches_solaires.csv">taches_solaires.csv</a></li>
-</ul></li>
-<li>Cartes
-<ul>
-<li><a href="docs1/visuR/dpt.zip">dpt.zip</a></li>
-<li><a href="docs1/visuR/postesSynop.csv">postesSynop.csv</a></li>
-<li><a href="docs1/visuR/synop.2018011215.csv">synop.2018011215.csv</a></li>
-<li><a href="docs1/visuR/tauxchomage.csv">tauxchomage.csv</a></li>
-<li><a href="docs1/visuR/villes_fr.csv">villes_fr.csv</a></li>
-<li><a href="docs1/visuR/coord_ville_exo1.csv">coord_ville_exo1.csv</a> (géolocalisation des villes pour l’exercice 1 si besoin)</li>
-<li><a href="docs1/visuR/coord_ville_nc.csv">coord_ville_nc.csv</a> (géolocalisation des villes pour la partie sf si besoin)</li>
-<li><a href="docs1/visuR/donnees_temp_fr.csv">donnees_temp_fr.csv</a> (données température pour le challenge si besoin)</li>
-<li><a href="docs1/visuR/station_temp_fr.csv">station_temp_fr.csv</a> (données station pour le challenge si besoin)</li>
-<li><a href="https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/#_">regions-20180101-shp.zip</a></li>
-<li><a href="docs1/visuR/sta.Paris.csv">sta.Paris.csv</a> (données sur les stations velib si besoin)</li>
-</ul></li>
-<li>Visualisation dynamique
-<ul>
-<li><a href="docs1/visuR/Dataset1-Media-Example-NODES.csv">Dataset1-Media-Example-NODES.csv</a></li>
-<li><a href="docs1/visuR/Dataset1-Media-Example-EDGES.csv">Dataset1-Media-Example-EDGES.csv</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="visuR-staps-ens" class="level2">
-<h2 class="anchored" data-anchor-id="visuR-staps-ens">Cours Staps-ENS Rennes</h2>
-<p>Ce cours de 20h propose une introduction au logiciel <strong>R</strong> et à la modélisation statistique.</p>
-<ul>
-<li><a href="docs1/visuR/cours.pdf">slides</a> : jusqu’à <code>ggplot2</code></li>
-<li><a href="docs1/visuR/cours_article.pdf">slides au format rapport</a> (pour impression) : jusqu’à <code>ggplot2</code></li>
-<li><a href="docs1/visuR/cours_stat_ens.pdf">slides - Partie stat</a></li>
-<li><a href="docs1/visuR/cours_article_stat_ens.pdf">slides - partie stat au format rapport</a> (pour impression)</li>
-<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a> : partie 1 + <code>ggplot2</code> + partie 3</li>
-<li>CC 2022 : <a href="docs1/visuR/sujet_ens_octobre2022.pdf">sujet</a>, <a href="docs1/visuR/cor_ens_octobre2022.pdf">corrigé</a></li>
-</ul>
-</section>
-<section id="visuR-SNS" class="level2">
-<h2 class="anchored" data-anchor-id="visuR-SNS">Master SNS</h2>
-<p>Ce cours de 24h propose une introduction au logiciel <strong>R</strong> et à quelques packages de visualisation (y compris les applications web avec <code>shiny</code>).</p>
-<ul>
-<li><a href="docs1/visuR/coursSNS.pdf">slides - Partie R</a></li>
-<li><a href="docs1/visuR/cours_articleSNS.pdf">slides - Partie R au format rapport</a> (pour impression)</li>
-<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
-<li>Partie Shiny
-<ul>
-<li><a href="docs1/visuR/cours_shiny.pdf">cours shiny</a></li>
-<li>Applications :
-<ul>
-<li>app_structure : <a href="docs1/visuR/SHINY_APP/app_structure/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_structure/server.R">server.R</a></li>
-</ul></li>
-</ul></li>
-</ul>
-<!--
-    -   Corrections :
-        -   input/outputs : [ui.R](docs1/visuR/SHINY_APP/app_input_output_correction/ui.R), [server.R](docs1/visuR/SHINY_APP/app_input_output_correction/server.R)
-        -   structure : [ui.R](docs1/visuR/SHINY_APP/app_structure_correction/ui.R), [server.R](docs1/visuR/SHINY_APP/app_structure_correction/server.R)
-        -   reactive/isolation/observe/html... : [ui.R](docs1/visuR/SHINY_APP/app_plus_loin/ui.R), [server.R](docs1/visuR/SHINY_APP/app_plus_loin/server.R), [global.R](docs1/visuR/SHINY_APP/app_plus_loin/global.R)
--->
-</section>
-<section id="master-mas" class="level2">
-<h2 class="anchored" data-anchor-id="master-mas">Master MAS</h2>
 
 
 </section>
@@ -443,15 +331,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<nav class="page-navigation column-body">
+<nav class="page-navigation column-page-right">
   <div class="nav-page nav-page-previous">
-      <a href="./apprentissage_sup.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Apprentissage supervisé - Machine learning</span>
+      <a href="./grande_dim.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Statistique en grande dimension</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./grande_dim.html" class="pagination-link">
-        <span class="nav-page-text">Statistique en grande dimension</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./autres_cours.html" class="pagination-link">
+        <span class="nav-page-text">Autres supports de cours</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
