@@ -109,7 +109,7 @@
     "href": "grande_dim.html",
     "title": "Statistique en grande dimension",
     "section": "",
-    "text": "Présentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\n\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt"
+    "text": "Présentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\n\nDocuments de cours\n\nPartie supervisée\n\nslides\nslides au format rapport\ntutoriel\n\nPartie non supervisée\n\nslides\nslides au format rapport\n\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt\ndonclassif.txt\ndonclassif2.txt"
   },
   {
     "objectID": "autres_cours.html",
