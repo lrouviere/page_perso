@@ -46,7 +46,35 @@
     "href": "apprentissage_sup.html",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte à une introduction à l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1, 3 et 5)\n\n\n\n\nFormation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
+    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés, codes R associés\ntutoriel avec corrigés (pas toujours disponible), code R associés"
+  },
+  {
+    "objectID": "apprentissage_sup.html#données-déséquilibrées",
+    "href": "apprentissage_sup.html#données-déséquilibrées",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Données déséquilibrées",
+    "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel"
+  },
+  {
+    "objectID": "apprentissage_sup.html#gradient-boosting",
+    "href": "apprentissage_sup.html#gradient-boosting",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Gradient boosting",
+    "text": "Gradient boosting\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
+  },
+  {
+    "objectID": "apprentissage_sup.html#app-sup-M1MAS",
+    "href": "apprentissage_sup.html#app-sup-M1MAS",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Cours d’apprentissage supervisé en M1 MAS",
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte à une introduction à l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1, 3 et 5)"
+  },
+  {
+    "objectID": "apprentissage_sup.html#formation-continue",
+    "href": "apprentissage_sup.html#formation-continue",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Formation continue",
+    "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
   },
   {
     "objectID": "enseignement.html",
