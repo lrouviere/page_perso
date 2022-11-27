@@ -119,6 +119,13 @@
     "text": "Master MAS"
   },
   {
+    "objectID": "visualisationR.html#smart-data",
+    "href": "visualisationR.html#smart-data",
+    "title": "Logiciel R - Visualisation",
+    "section": "Master Statistics for smart data",
+    "text": "Master Statistics for smart data\n\nslides\nslides au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R"
+  },
+  {
     "objectID": "articles.html",
     "href": "articles.html",
     "title": "Articles",
