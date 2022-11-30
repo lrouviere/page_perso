@@ -56,11 +56,11 @@
     "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel"
   },
   {
-    "objectID": "apprentissage_sup.html#gradient-boosting-atelier-sfds",
-    "href": "apprentissage_sup.html#gradient-boosting-atelier-sfds",
+    "objectID": "apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
+    "href": "apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
     "title": "Apprentissage supervisé - Machine learning",
-    "section": "Gradient boosting (Atelier SFDS)",
-    "text": "Gradient boosting (Atelier SFDS)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
+    "section": "Gradient boosting (Atelier SFDS Méthodes par arbres)",
+    "text": "Gradient boosting (Atelier SFDS Méthodes par arbres)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
   },
   {
     "objectID": "apprentissage_sup.html#app-sup-M1MAS",
