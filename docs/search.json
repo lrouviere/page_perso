@@ -67,7 +67,7 @@
     "href": "apprentissage_sup.html#app-sup-M1MAS",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Cours d’apprentissage supervisé en M1 MAS",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte à une introduction à l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1, 3 et 5)"
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte à une introduction à l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)"
   },
   {
     "objectID": "apprentissage_sup.html#formation-continue",
@@ -112,11 +112,11 @@
     "text": "Master SNS\nCe cours de 24h propose une introduction au logiciel R et à quelques packages de visualisation (y compris les applications web avec shiny).\n\nslides - Partie R\nslides - Partie R au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R"
   },
   {
-    "objectID": "visualisationR.html#master-mas",
-    "href": "visualisationR.html#master-mas",
+    "objectID": "visualisationR.html#MAS",
+    "href": "visualisationR.html#MAS",
     "title": "Logiciel R - Visualisation",
     "section": "Master MAS",
-    "text": "Master MAS"
+    "text": "Master MAS\n\nslides\nslides au format rapport (pour impression)\ntutoriel"
   },
   {
     "objectID": "visualisationR.html#smart-data",
