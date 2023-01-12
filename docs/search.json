@@ -49,6 +49,20 @@
     "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés, codes R associés\ntutoriel avec corrigés (pas toujours disponible), code R associés"
   },
   {
+    "objectID": "apprentissage_sup.html#app-sup-M1MAS",
+    "href": "apprentissage_sup.html#app-sup-M1MAS",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Cours d’apprentissage supervisé en M1 MAS",
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)"
+  },
+  {
+    "objectID": "apprentissage_sup.html#intro-ML-L1Miashs",
+    "href": "apprentissage_sup.html#intro-ML-L1Miashs",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Cours d’introduction au Machine Learning en L1 Miashs",
+    "text": "Cours d’introduction au Machine Learning en L1 Miashs\nCe cours propose une introduction au Machine Learning accesible à des étudiants de niveau L1. Les thèmes suivants sont abordés :\n\nPrésentation et historique sur les notions d’Intelligence Artificielle, Machine Learning, Apprentissage…\nPrésentation des problèmes d’apprentissage supervisé et non supervisé\nQuelques algorithmes de machine learning : \\(k\\)-plus proches voisins, méthodes par arbre, \\(k\\)-means.\n\nSupports :\n\nslides\nslides au format rapport"
+  },
+  {
     "objectID": "apprentissage_sup.html#données-déséquilibrées",
     "href": "apprentissage_sup.html#données-déséquilibrées",
     "title": "Apprentissage supervisé - Machine learning",
@@ -61,13 +75,6 @@
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)",
     "text": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
-  },
-  {
-    "objectID": "apprentissage_sup.html#app-sup-M1MAS",
-    "href": "apprentissage_sup.html#app-sup-M1MAS",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Cours d’apprentissage supervisé en M1 MAS",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte à une introduction à l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)"
   },
   {
     "objectID": "apprentissage_sup.html#formation-continue",
