@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "cours/apprentissage_sup.html",
+    "href": "cours/apprentissage_sup.html",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "",
+    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#app-sup",
+    "href": "cours/apprentissage_sup.html#app-sup",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "",
+    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#app-sup-M1MAS",
+    "href": "cours/apprentissage_sup.html#app-sup-M1MAS",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Cours d’apprentissage supervisé en M1 MAS",
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)\nQCM Avril 2022"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#intro-ML-L1Miashs",
+    "href": "cours/apprentissage_sup.html#intro-ML-L1Miashs",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Cours d’intitiation au Machine Learning en L1 Miashs",
+    "text": "Cours d’intitiation au Machine Learning en L1 Miashs\nCe cours propose une introduction au Machine Learning accessible à des étudiants de niveau L1. Les thèmes suivants sont abordés :\n\nPrésentation et historique sur les notions d’Intelligence Artificielle, Machine Learning, Apprentissage…\nPrésentation des problèmes d’apprentissage supervisé et non supervisé\nQuelques algorithmes de machine learning : \\(k\\)-plus proches voisins, méthodes par arbre, \\(k\\)-means.\n\nSupports :\n\nslides\nslides au format rapport"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#donnees-des",
+    "href": "cours/apprentissage_sup.html#donnees-des",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Données déséquilibrées",
+    "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
+    "href": "cours/apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)",
+    "text": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
+  },
+  {
+    "objectID": "cours/apprentissage_sup.html#formation-continue",
+    "href": "cours/apprentissage_sup.html#formation-continue",
+    "title": "Apprentissage supervisé - Machine learning",
+    "section": "Formation continue",
+    "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
+  },
+  {
     "objectID": "graphes.html",
     "href": "graphes.html",
     "title": "Graph Mining",
@@ -40,55 +89,6 @@
     "title": "Fonctions et CV",
     "section": "Parcours",
     "text": "Parcours\n\n\n\n\n\n\n\n2006 - …\nMaître de Conférences, Université Rennes 2\nDétachement sur un poste d’enseignant chercheur à l’Ensai entre 2009 et 2015\n\n\n2005 - 2006\nATER, Université Rennes 2\n\n\n2002 - 2005\nDoctorat de Mathématiques Appliquées, Université Montpellier 2\n\nTitre : Estimation de densité en dimension élevée et classification de courbes\nDirecteurs de thèse : Alain Berlinet (Professeur, Université Montpellier 2) et Gérard Biau (Professeur, Sorbonne Université)\n\n\n\n\nTélécharger mon cv complet"
-  },
-  {
-    "objectID": "apprentissage_sup.html",
-    "href": "apprentissage_sup.html",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "",
-    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
-  },
-  {
-    "objectID": "apprentissage_sup.html#app-sup",
-    "href": "apprentissage_sup.html#app-sup",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "",
-    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
-  },
-  {
-    "objectID": "apprentissage_sup.html#app-sup-M1MAS",
-    "href": "apprentissage_sup.html#app-sup-M1MAS",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Cours d’apprentissage supervisé en M1 MAS",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)\nQCM Avril 2022"
-  },
-  {
-    "objectID": "apprentissage_sup.html#intro-ML-L1Miashs",
-    "href": "apprentissage_sup.html#intro-ML-L1Miashs",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Cours d’introduction au Machine Learning en L1 Miashs",
-    "text": "Cours d’introduction au Machine Learning en L1 Miashs\nCe cours propose une introduction au Machine Learning accessible à des étudiants de niveau L1. Les thèmes suivants sont abordés :\n\nPrésentation et historique sur les notions d’Intelligence Artificielle, Machine Learning, Apprentissage…\nPrésentation des problèmes d’apprentissage supervisé et non supervisé\nQuelques algorithmes de machine learning : \\(k\\)-plus proches voisins, méthodes par arbre, \\(k\\)-means.\n\nSupports :\n\nslides\nslides au format rapport"
-  },
-  {
-    "objectID": "apprentissage_sup.html#donnees-des",
-    "href": "apprentissage_sup.html#donnees-des",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Données déséquilibrées",
-    "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel"
-  },
-  {
-    "objectID": "apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
-    "href": "apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)",
-    "text": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
-  },
-  {
-    "objectID": "apprentissage_sup.html#formation-continue",
-    "href": "apprentissage_sup.html#formation-continue",
-    "title": "Apprentissage supervisé - Machine learning",
-    "section": "Formation continue",
-    "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
   },
   {
     "objectID": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
