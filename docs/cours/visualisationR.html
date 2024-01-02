@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Laurent Rouvière – Logiciel R - Visualisation</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../cours/grande_dim.html" rel="next">
+<link href="../cours/apprentissage_sup.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../enseignement.html">Enseignements</a></li><li class="breadcrumb-item"><a href="../cours/apprentissage_sup.html">Supports de cours</a></li><li class="breadcrumb-item"><a href="../cours/visualisationR.html">Logiciel R - Visualisation</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Recherche" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">
+      Laurent Rouvière
+      </a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Basculer en mode lecteur">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Recherche"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fonctions et CV</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Enseignements</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../enseignement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Présentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Supports de cours</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cours/apprentissage_sup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Apprentissage supervisé - Machine learning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cours/visualisationR.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Logiciel R - Visualisation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cours/grande_dim.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Statistique en grande dimension</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cours/graphes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Graph Mining</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cours/autres_cours.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Autres supports de cours</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Recherche</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../recherche/livres.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Livres</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../recherche/articles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Articles</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#visuR-staps-ens" id="toc-visuR-staps-ens" class="nav-link" data-scroll-target="#visuR-staps-ens">Cours Staps-ENS Rennes</a></li>
+  <li><a href="#visuR-SNS" id="toc-visuR-SNS" class="nav-link" data-scroll-target="#visuR-SNS">Master SNS</a></li>
+  <li><a href="#MAS" id="toc-MAS" class="nav-link" data-scroll-target="#MAS">Master MAS</a></li>
+  <li><a href="#smart-data" id="toc-smart-data" class="nav-link" data-scroll-target="#smart-data">Master Statistics for smart data</a></li>
+  <li><a href="#shiny-ensai" id="toc-shiny-ensai" class="nav-link" data-scroll-target="#shiny-ensai">Atelier Shiny - Ensai, 10 mars 2023</a></li>
+  <li><a href="#cepe-mars2023" id="toc-cepe-mars2023" class="nav-link" data-scroll-target="#cepe-mars2023">Formation Cepe - Introduction à R - 22 et 23 mars 2023</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-body" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Logiciel R - Visualisation</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Ce cours présente une introduction au <code>logiciel R</code> et aux principaux outils de <code>visualisation</code> avec ce logiciel. Les thèmes suivants sont abordés :</p>
+<ul>
+<li>Logiciel R
+<ul>
+<li><strong>Présentation du logiciel</strong>, environnement <code>Rstudio</code>, reporting avec <code>quarto</code> et <code>Rmarkdown</code></li>
+<li><strong>Objets R</strong></li>
+<li><strong>Manipulation des données</strong> (essentiellement avec <code>dplyr</code>)</li>
+</ul></li>
+<li>Visualisation
+<ul>
+<li><strong>Visualisation statique</strong> (représentations standards et avec <code>ggplot2</code>)</li>
+<li><strong>Cartographie</strong>
+<ul>
+<li>statique avec <code>ggmap</code> et <code>sf</code></li>
+<li>dynamiques avec <code>leaflet</code></li>
+</ul></li>
+<li><strong>Visualisation dynamique</strong>
+<ul>
+<li>graphes standards avec <code>RamCharts</code>et <code>plotly</code></li>
+<li>réseaux avec <code>visNetwork</code></li>
+<li>tableaux de bord avec <code>flexdashboard</code></li>
+</ul></li>
+</ul></li>
+<li>Un peu de statistique avec <strong>R</strong>
+<ul>
+<li><strong>Régression</strong> : ajustement de modèles, formules, prévisions…</li>
+<li><strong>Introduction au problème de l’estimation</strong>, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.</li>
+</ul></li>
+</ul>
+<section id="supports-complet" class="level4">
+<h4 class="anchored" data-anchor-id="supports-complet">Supports complet</h4>
+<ul>
+<li><a href="docs1/visuR/cours.pdf">slides</a></li>
+<li><a href="docs1/visuR/cours_article.pdf">slides au format rapport</a> (pour impression)</li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
+</ul>
+</section>
+<section id="jeux-de-données" class="level4">
+<h4 class="anchored" data-anchor-id="jeux-de-données">Jeux de données</h4>
+<ul>
+<li>Logiciel R
+<ul>
+<li>Manipulation de données
+<ul>
+<li><a href="docs1/visuR/mydata.csv">mydata.csv</a></li>
+<li><a href="docs1/visuR/mydata2.csv">mydata2.csv</a></li>
+<li><a href="docs1/visuR/piscines.csv">piscines.csv</a></li>
+<li><a href="docs1/visuR/tauxchomage.csv">tauxchomage.csv</a></li>
+<li><a href="docs1/visuR/FrenchOpen-men-2013.csv">FrenchOpen-men-2013.csv</a></li>
+<li><a href="docs1/visuR/Wimbledon-men-2013.csv">Wimbledon-men-2013.csv</a></li>
+</ul></li>
+</ul></li>
+<li>Visualisation
+<ul>
+<li>graphes classiques et <code>ggplot2</code>
+<ul>
+<li><a href="docs1/visuR/ozone.txt">ozone.txt</a></li>
+<li><a href="docs1/visuR/taches_solaires.csv">taches_solaires.csv</a></li>
+</ul></li>
+<li>Cartes
+<ul>
+<li><a href="docs1/visuR/dpt.zip">dpt.zip</a></li>
+<li><a href="docs1/visuR/postesSynop.csv">postesSynop.csv</a></li>
+<li><a href="docs1/visuR/synop.2018011215.csv">synop.2018011215.csv</a></li>
+<li><a href="docs1/visuR/tauxchomage.csv">tauxchomage.csv</a></li>
+<li><a href="docs1/visuR/villes_fr.csv">villes_fr.csv</a></li>
+<li><a href="docs1/visuR/coord_ville_exo1.csv">coord_ville_exo1.csv</a> (géolocalisation des villes pour l’exercice 1 si besoin)</li>
+<li><a href="docs1/visuR/coord_ville_nc.csv">coord_ville_nc.csv</a> (géolocalisation des villes pour la partie sf si besoin)</li>
+<li><a href="docs1/visuR/donnees_temp_fr.csv">donnees_temp_fr.csv</a> (données température pour le challenge si besoin)</li>
+<li><a href="docs1/visuR/station_temp_fr.csv">station_temp_fr.csv</a> (données station pour le challenge si besoin)</li>
+<li><a href="https://www.data.gouv.fr/fr/datasets/contours-des-regions-francaises-sur-openstreetmap/#_">regions-20180101-shp.zip</a></li>
+<li><a href="docs1/visuR/sta.Paris.csv">sta.Paris.csv</a> (données sur les stations velib si besoin)</li>
+</ul></li>
+<li>Visualisation dynamique
+<ul>
+<li><a href="docs1/visuR/Dataset1-Media-Example-NODES.csv">Dataset1-Media-Example-NODES.csv</a></li>
+<li><a href="docs1/visuR/Dataset1-Media-Example-EDGES.csv">Dataset1-Media-Example-EDGES.csv</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="visuR-staps-ens" class="level2">
+<h2 class="anchored" data-anchor-id="visuR-staps-ens">Cours Staps-ENS Rennes</h2>
+<p>Ce cours de 20h propose une introduction au logiciel <strong>R</strong> et à la modélisation statistique.</p>
+<ul>
+<li><a href="docs1/visuR/cours_staps_ens.pdf">slides</a> : jusqu’à <code>ggplot2</code></li>
+<li><a href="docs1/visuR/cours_article_staps_ens.pdf">slides au format rapport</a> (pour impression) : jusqu’à <code>ggplot2</code></li>
+<li><a href="docs1/visuR/cours_stat_ens.pdf">slides - Partie stat</a></li>
+<li><a href="docs1/visuR/cours_article_stat_ens.pdf">slides - partie stat au format rapport</a> (pour impression)</li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a> : chapitres 1,2,3 et 8.</li>
+<li>Devoir Octobre 2023
+<ul>
+<li><a href="docs1/visuR/Devoir_ens_staps_2023/donnees1_2023.csv">donnees1_2023</a></li>
+<li><a href="docs1/visuR/Devoir_ens_staps_2023/donnees2_2023.csv">donnees2_2023</a></li>
+<li><a href="docs1/visuR/Devoir_ens_staps_2023/correction2023.pdf">Correction</a></li>
+</ul></li>
+</ul>
+<!--
+-   CC 2022 : [sujet](docs1/visuR/sujet_ens_octobre2022.pdf), [corrigé](docs1/visuR/cor_ens_octobre2022.pdf)
+-->
+</section>
+<section id="visuR-SNS" class="level2">
+<h2 class="anchored" data-anchor-id="visuR-SNS">Master SNS</h2>
+<p>Ce cours de 24h propose une introduction au logiciel <strong>R</strong> et à quelques packages de visualisation (y compris les applications web avec <code>shiny</code>).</p>
+<ul>
+<li><a href="docs1/visuR/coursSNS.pdf">slides - Partie R</a></li>
+<li><a href="docs1/visuR/cours_articleSNS.pdf">slides - Partie R au format rapport</a> (pour impression)</li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
+<li>Partie Shiny
+<ul>
+<li><a href="docs1/visuR/cours_shiny.pdf">cours shiny</a></li>
+<li>Applications :
+<ul>
+<li>app_structure : <a href="docs1/visuR/SHINY_APP/app_structure/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_structure/server.R">server.R</a></li>
+</ul></li>
+<li>Corrections :
+<ul>
+<li>input/outputs : <a href="docs1/visuR/SHINY_APP/app_input_output_correction/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_input_output_correction/server.R">server.R</a></li>
+<li>structure : <a href="docs1/visuR/SHINY_APP/app_structure_correction/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_structure_correction/server.R">server.R</a></li>
+<li>reactive/isolation/observe/html… : <a href="docs1/visuR/SHINY_APP/app_plus_loin/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_plus_loin/server.R">server.R</a>, <a href="docs1/visuR/SHINY_APP/app_plus_loin/global.R">global.R</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="MAS" class="level2">
+<h2 class="anchored" data-anchor-id="MAS">Master MAS</h2>
+<ul>
+<li><a href="docs1/visuR/cours_visu_MAS.pdf">slides</a></li>
+<li><a href="docs1/visuR/cours_visu_MAS_article.pdf">slides au format rapport</a> (pour impression)</li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
+</ul>
+</section>
+<section id="smart-data" class="level2">
+<h2 class="anchored" data-anchor-id="smart-data">Master Statistics for smart data</h2>
+<ul>
+<li><a href="docs1/visuR/cours_SD.pdf">slides</a></li>
+<li><a href="docs1/visuR/cours_article_SD.pdf">slides au format rapport</a> (pour impression)</li>
+<li><a href="https://lrouviere.github.io/TUTO_DATAVIZ/">tutoriel</a></li>
+<li>Partie Shiny
+<ul>
+<li><a href="docs1/visuR/cours_shiny.pdf">cours shiny</a></li>
+<li>Applications :
+<ul>
+<li>app_structure : <a href="docs1/visuR/SHINY_APP/app_structure/ui.R">ui.R</a>, <a href="docs1/visuR/SHINY_APP/app_structure/server.R">server.R</a></li>
+</ul></li>
+</ul></li>
+</ul>
+<!--
+    -   Corrections :
+        -   input/outputs : [ui.R](docs1/visuR/SHINY_APP/app_input_output_correction/ui.R), [server.R](docs1/visuR/SHINY_APP/app_input_output_correction/server.R)
+        -   structure : [ui.R](docs1/visuR/SHINY_APP/app_structure_correction/ui.R), [server.R](docs1/visuR/SHINY_APP/app_structure_correction/server.R)
+        -   reactive/isolation/observe/html... : [ui.R](docs1/visuR/SHINY_APP/app_plus_loin/ui.R), [server.R](docs1/visuR/SHINY_APP/app_plus_loin/server.R), [global.R](docs1/visuR/SHINY_APP/app_plus_loin/global.R)
+</section>
+<section id="shiny-ensai" class="level2">
+<h2>Atelier Shiny - Ensai, 10 mars 2023</h2>
+<ul>
+<li><a href="docs1/visuR/cours_shiny.pdf">Cours</a></li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/correction/07-shiny.html">Exercices</a></li>
+</ul>
+</section>
+<section id="cepe-mars2023" class="level2">
+<h2>Formation Cepe - Introduction à R - 22 et 23 mars 2023</h2>
+<p>Cette formation propose une introduction au logiciel <strong>R</strong> et à ses fondamentaux dans l’esprit <code>tidyverse</code>. Les thèmes suivants sont présentés :</p>
+<ul>
+<li>Présentation du logiciel</li>
+<li>Reporting quarto</li>
+<li>Importation, jointure et manipulation de données</li>
+<li>Visualisation</li>
+<li>Programmation</li>
+</ul>
+<p><strong>Supports de la formation</strong> :</p>
+<ul>
+<li><a href="docs1/visuR/R_cepe_mars23.pdf">Cours</a></li>
+<li><a href="docs1/visuR/R_cepe_mars23_article.pdf">Cours - version imprimable</a></li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/">tutoriel</a></li>
+<li><a href="https://lrouviere.github.io/TUTO_VISU_R/correction/">tutoriel corrigé</a></li>
+</ul>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Laurent Rouvière</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Laurent Rouvière</span> <span class="hidden" data-render-id="quarto-int-next">Statistique en grande dimension</span> <span class="hidden" data-render-id="quarto-int-prev">Apprentissage supervisé - Machine learning</span> <span class="hidden" data-render-id="quarto-int-sidebar:/index.html">Fonctions et CV</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Enseignements</span> <span class="hidden" data-render-id="quarto-int-sidebar:/enseignement.html">Présentation</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-2">Supports de cours</span> <span class="hidden" data-render-id="quarto-int-sidebar:/cours/apprentissage_sup.html">Apprentissage supervisé - Machine learning</span> <span class="hidden" data-render-id="quarto-int-sidebar:/cours/visualisationR.html">Logiciel R - Visualisation</span> <span class="hidden" data-render-id="quarto-int-sidebar:/cours/grande_dim.html">Statistique en grande dimension</span> <span class="hidden" data-render-id="quarto-int-sidebar:/cours/graphes.html">Graph Mining</span> <span class="hidden" data-render-id="quarto-int-sidebar:/cours/autres_cours.html">Autres supports de cours</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-3">Recherche</span> <span class="hidden" data-render-id="quarto-int-sidebar:/recherche/livres.html">Livres</span> <span class="hidden" data-render-id="quarto-int-sidebar:/recherche/articles.html">Articles</span> <span class="hidden" data-render-id="quarto-breadcrumbs-2cea6d678a36ddd06baf76ba7e757184">Enseignements</span> <span class="hidden" data-render-id="quarto-breadcrumbs-ae597a1d8a2d973dc32b2392d1abe8e1">Supports de cours</span> <span class="hidden" data-render-id="quarto-breadcrumbs-df41ff6e15b04a0399a561eec5f53205">Logiciel R - Visualisation</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-metatitle">Laurent Rouvière - Logiciel R - Visualisation</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Laurent Rouvière - Logiciel R - Visualisation</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Laurent Rouvière - Logiciel R - Visualisation</span> <span class="hidden" data-render-id="quarto-metasitename">Laurent Rouvière</span> <span class="hidden" data-render-id="quarto-twittercarddesc"></span> <span class="hidden" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../cours/apprentissage_sup.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Apprentissage supervisé - Machine learning</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../cours/grande_dim.html" class="pagination-link">
+        <span class="nav-page-text">Statistique en grande dimension</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</section></main></div> <!-- /content -->
+
+
+
+</body></html>
