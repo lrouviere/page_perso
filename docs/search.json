@@ -32,7 +32,7 @@
     "href": "cours/apprentissage_sup.html#app-sup-M1MAS",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Cours d’apprentissage supervisé en M1 MAS",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1 à 5)\nQCM Avril 2022"
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1,2,3 6 et 5)\nQCM Avril 2022"
   },
   {
     "objectID": "cours/apprentissage_sup.html#intro-ML-L1Miashs",
