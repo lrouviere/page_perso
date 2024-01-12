@@ -1,17 +1,31 @@
 [
   {
-    "objectID": "cours/graphes.html",
-    "href": "cours/graphes.html",
-    "title": "Graph Mining",
-    "section": "",
-    "text": "On présente dans ce cours une introduction aux graphes. On introduira notamment"
+    "objectID": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
+    "href": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
+    "title": "Présentation",
+    "section": "Cours actuels à l’Université Rennes 2",
+    "text": "Cours actuels à l’Université Rennes 2\n\nLicence Miashs\n\nIntroduction au machine learning en L1 (12h CM - 12h TD)\nStatistique inférentielle en L3 (24h CM - 24h TD)\n\n\n\nMaster Mathématiques Appliquées, Statistique\n\nApprentissage statistique en M1 (16h CM - 8h TD)\nVisualisation des données en M1 (24h TD)\nStatistique en grande dimension en M2 (16h CM - 8h TD)\n\n\n\nMaster Sciences du numériques et du sport\n\nVisualisation avec R (12h CM - 12h TD)"
   },
   {
-    "objectID": "cours/graphes.html#graphes",
-    "href": "cours/graphes.html#graphes",
-    "title": "Graph Mining",
-    "section": "Documents de cours",
-    "text": "Documents de cours\n\nslides\nslides au format rapport\ntutoriel\ndonnées pour le tutoriel :\n\nMedia edges\nMedia nodes\nAmis\nLes misérables"
+    "objectID": "enseignement.html#cours-dans-dautres-formations",
+    "href": "enseignement.html#cours-dans-dautres-formations",
+    "title": "Présentation",
+    "section": "Cours dans d’autres formations",
+    "text": "Cours dans d’autres formations\n\nCompléments de machine learning (notamment les SVM) et Introduction aux graphes dans le Master Data Science de l’Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d’Ivoire)\nDynamic data visualization dans le MSC Statistics for smart data à l’Ensai\nStatistique avec R dans le Magistère Sciences du Sport et Education Physique à l’ENS Rennes"
+  },
+  {
+    "objectID": "recherche/livres.html",
+    "href": "recherche/livres.html",
+    "title": "Livres",
+    "section": "",
+    "text": "Titre : Régression avec R, 3ème édition, 2023\nAuteurs : Pierre-André Cornillon, Nicolas Hengartner, Eric Matzner-Løber, Laurent Rouvière\nEdition : EDP sciences\nSite Web : https://regression-avec-r.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R pour la statistique et la science des données, 2018\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Nicolas Klutchnikoff, Erwan Le Pennec, Eric Matzner-Lober, Laurent Rouvière, Benoît Thieurmel\nEdition : PUR\nSite Web : https://r-stat-sc-donnees.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : Statistiques avec R, 3ème édition, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : PUR\nSite Web : https://husson.github.io/StatR.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R for statistics, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : Chapman & Hall"
+  },
+  {
+    "objectID": "cours/grande_dim.html",
+    "href": "cours/grande_dim.html",
+    "title": "Statistique en grande dimension",
+    "section": "",
+    "text": "Ce cours, d’un niveau M2, propose quelques stratégies pour appréhender le problème de la grande dimension en apprentissage supervisé et non supervisé. Les thèmes suivants seront abordés :\n\nSupervisé\n\nPrésentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\nNon supervisé\n\nRappels sur les algorithmes standards\nDBSCAN et clustering spectral\n\n\n\nDocuments de cours\n\nPartie supervisée\n\nslides\nslides au format rapport\ntutoriel\n\nPartie non supervisée\n\nslides\nslides au format rapport\n\nQCM novembre 2022\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt\ndonclassif.txt\ndonclassif2.txt"
   },
   {
     "objectID": "cours/apprentissage_sup.html",
@@ -63,6 +77,20 @@
     "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
   },
   {
+    "objectID": "cours/graphes.html",
+    "href": "cours/graphes.html",
+    "title": "Graph Mining",
+    "section": "",
+    "text": "On présente dans ce cours une introduction aux graphes. On introduira notamment"
+  },
+  {
+    "objectID": "cours/graphes.html#graphes",
+    "href": "cours/graphes.html#graphes",
+    "title": "Graph Mining",
+    "section": "Documents de cours",
+    "text": "Documents de cours\n\nslides\nslides au format rapport\ntutoriel\ndonnées pour le tutoriel :\n\nMedia edges\nMedia nodes\nAmis\nLes misérables"
+  },
+  {
     "objectID": "cours/visualisationR.html",
     "href": "cours/visualisationR.html",
     "title": "Logiciel R - Visualisation",
@@ -103,13 +131,6 @@
     "title": "Logiciel R - Visualisation",
     "section": "Master Statistics for smart data",
     "text": "Master Statistics for smart data\n\nslides\nslides au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R\n\n\n\n\n\n\n  \n      \n         Apprentissage supervisé - Machine learning\n                \n  \n  \n      \n        Statistique en grande dimension"
-  },
-  {
-    "objectID": "cours/grande_dim.html",
-    "href": "cours/grande_dim.html",
-    "title": "Statistique en grande dimension",
-    "section": "",
-    "text": "Ce cours, d’un niveau M2, propose quelques stratégies pour appréhender le problème de la grande dimension en apprentissage supervisé et non supervisé. Les thèmes suivants seront abordés :\n\nSupervisé\n\nPrésentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\nNon supervisé\n\nRappels sur les algorithmes standards\nDBSCAN et clustering spectral\n\n\n\nDocuments de cours\n\nPartie supervisée\n\nslides\nslides au format rapport\ntutoriel\n\nPartie non supervisée\n\nslides\nslides au format rapport\n\nQCM novembre 2022\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt\ndonclassif.txt\ndonclassif2.txt"
   },
   {
     "objectID": "cours/autres_cours.html",
@@ -168,13 +189,6 @@
     "text": "Klutchnikoff, N., Poterie, A. et Rouvière, L. (2022). Statistical analysis of a hierarchical clustering algorithm with outliers, Journal of Multivariate Analysis, Vol.192, DOI:&lt;10.1016/j.jmva.2022.105075&gt;\nDufresne, S., Richard, C., Dieumegard, A., Orfila, L., Delpon, G., Chiavassa, S., Martin, B., Rouvière, L., Escoffre, J.M., Oujagir, E., de Senneville, B.D., Bouakaz, A., Rioux-Leclerq, N., Potiron, V. et Rébillard, A (2021). Voluntary Wheel Running Does Not Enhance Radiotherapy Efficiency in a Preclinical Model of Prostate Cancer: The Importance of Physical Activity Modalities? Cancers, Vol. 13(21), DOI:&lt;10.3390/cancers13215402&gt;\nDe Müllenheim, P.Y., Rouvière, L. , Emily, M., Chaudru, E., Kaladji, A., Mahé, G. et Le Faucheur, A (2021). Shoud I stay or should I go now?” Recovery time effect on walking capacity in symptomatic peripheral artery disease. Journal of applied physiology. Vol. 131(1), 207-219. DOI:&lt;10.1152/japplphysiol.00441.2020&gt;\nA. Poterie, J.F. Dupuy, V. Monbet et L. Rouvière (2019). Classification tree algorithm for grouped variables. Computational statistics. Vol. 34, pp. 1613-1648. DOI:&lt;10.1007/s00180-019-00894-y&gt;\nG. Biau, B. Cadre et L. Rouvière (2019). Accelerated gradient boosting. Machine Learning, Vol. 19, pp. 971-992. Télécharger AGB. DOI:&lt;10.1007/s10994-019-05787-1&gt;.\nN. Hengartner, E. Matzner-Løber, L. Rouvière et T. Burr (2018). Multiplicative bias corrected nonparametric smoothers. In Nonparametric statistics, Springer proceedings in Mathematics and Statistics, 3rd ISNPS, Avignon, 2016. DOI:&lt;10.1007/978-3-319-96941-1_3&gt;\nS. Auray, N. Klutchnikoff et L. Rouvière (2015). On clustering procedure and nonparametric mixture estimation. Electronic Journal of Statistics, Vol. 9, pp. 266-297. DOI:&lt;10.1214/15-EJS995&gt;\nT. Burr, N. Hengartner, E. Matzner-Løber, S. Myers et L. Rouvière (2011), Smoothing Low Resolution Spectral Data. IEEE Transactions on Nuclear Science, Vol. 57, pp. 2831–2840. DOI:&lt;10.1109/TNS.2010.2054110&gt;.\nG. Biau, B. Cadre et L. Rouvière (2010). Statistical analysis of k-nearest neighbor collaborative recommendation. The Annals of Statistics, Vol. 38, pp. 1568–1592.DOI:&lt;10.1214/09-AOS759&gt;\nG. Biau, O. Biau et L. Rouvière (2008). Nonparametric forecasting of the manufacturing output growth with firm-level survey data. Journal of Business Cycle Measurement and Analysis, Vol. 3 , pp. 317–332. DOI:&lt;10.1787/17293626&gt;\nA. Berlinet, G. Biau et L. Rouvière (2008). Functional classification with wavelets. Annales de l’ISUP, Vol. 52, pp. 61–80.\nL. Rouvière (2006). Sélection d’histogrammes modifiés itérés. Journal de la Société Française de Statistique, Vol. 147 , pp. 65–83.\nA. Berlinet, G. Biau et L. Rouvière (2005). Optimal \\(L_1\\) bandwidth selection for variable kernel density estimates. Statistics and Probability Letters, Vol. 74, pp. 116–128. DOI:&lt;10.1016/j.spl.2005.04.036&gt;\nA. Berlinet, G. Biau et L. Rouvière (2005). Parameter selection in modified histogram estimates. Statistics, Vol. 39 , pp. 91–105. DOI:&lt;10.1080/02331880500059713&gt;\nA. Berlinet et L. Rouvière (2005). Effective construction of modified histograms in higher dimensions. In Statistical Modeling and Analysis for Complex Data Problems, ed P. Duchesne et B. Rémillard. DOI:&lt;10.1007/0-387-24555-3_6&gt;"
   },
   {
-    "objectID": "recherche/livres.html",
-    "href": "recherche/livres.html",
-    "title": "Livres",
-    "section": "",
-    "text": "Titre : Régression avec R, 3ème édition, 2023\nAuteurs : Pierre-André Cornillon, Nicolas Hengartner, Eric Matzner-Løber, Laurent Rouvière\nEdition : EDP sciences\nSite Web : https://regression-avec-r.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R pour la statistique et la science des données, 2018\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Nicolas Klutchnikoff, Erwan Le Pennec, Eric Matzner-Lober, Laurent Rouvière, Benoît Thieurmel\nEdition : PUR\nSite Web : https://r-stat-sc-donnees.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : Statistiques avec R, 3ème édition, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : PUR\nSite Web : https://husson.github.io/StatR.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R for statistics, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : Chapman & Hall"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Fonctions et CV",
@@ -201,19 +215,5 @@
     "title": "Fonctions et CV",
     "section": "Parcours",
     "text": "Parcours\n\n\n\n\n\n\n\n2006 - …\nMaître de Conférences, Université Rennes 2\nDétachement sur un poste d’enseignant chercheur à l’Ensai entre 2009 et 2015\n\n\n2005 - 2006\nATER, Université Rennes 2\n\n\n2002 - 2005\nDoctorat de Mathématiques Appliquées, Université Montpellier 2\n\nTitre : Estimation de densité en dimension élevée et classification de courbes\nDirecteurs de thèse : Alain Berlinet (Professeur, Université Montpellier 2) et Gérard Biau (Professeur, Sorbonne Université)\n\n\n\n\nTélécharger mon cv complet"
-  },
-  {
-    "objectID": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
-    "href": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
-    "title": "Présentation",
-    "section": "Cours actuels à l’Université Rennes 2",
-    "text": "Cours actuels à l’Université Rennes 2\n\nLicence Miashs\n\nIntroduction au machine learning en L1 (12h CM - 12h TD)\nStatistique inférentielle en L3 (24h CM - 24h TD)\n\n\n\nMaster Mathématiques Appliquées, Statistique\n\nApprentissage statistique en M1 (16h CM - 8h TD)\nVisualisation des données en M1 (24h TD)\nStatistique en grande dimension en M2 (16h CM - 8h TD)\n\n\n\nMaster Sciences du numériques et du sport\n\nVisualisation avec R (12h CM - 12h TD)"
-  },
-  {
-    "objectID": "enseignement.html#cours-dans-dautres-formations",
-    "href": "enseignement.html#cours-dans-dautres-formations",
-    "title": "Présentation",
-    "section": "Cours dans d’autres formations",
-    "text": "Cours dans d’autres formations\n\nCompléments de machine learning (notamment les SVM) et Introduction aux graphes dans le Master Data Science de l’Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d’Ivoire)\nDynamic data visualization dans le MSC Statistics for smart data à l’Ensai\nStatistique avec R dans le Magistère Sciences du Sport et Education Physique à l’ENS Rennes"
   }
 ]
