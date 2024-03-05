@@ -4,216 +4,359 @@
     "href": "enseignement.html#cours-actuels-à-luniversité-rennes-2",
     "title": "Présentation",
     "section": "Cours actuels à l’Université Rennes 2",
-    "text": "Cours actuels à l’Université Rennes 2\n\nLicence Miashs\n\nIntroduction au machine learning en L1 (12h CM - 12h TD)\nStatistique inférentielle en L3 (24h CM - 24h TD)\n\n\n\nMaster Mathématiques Appliquées, Statistique\n\nApprentissage statistique en M1 (16h CM - 8h TD)\nVisualisation des données en M1 (24h TD)\nStatistique en grande dimension en M2 (16h CM - 8h TD)\n\n\n\nMaster Sciences du numériques et du sport\n\nVisualisation avec R (12h CM - 12h TD)"
+    "text": "Cours actuels à l’Université Rennes 2\n\nLicence Miashs\n\nIntroduction au machine learning en L1 (12h CM - 12h TD)\nStatistique inférentielle en L3 (24h CM - 24h TD)\n\n\n\nMaster Mathématiques Appliquées, Statistique\n\nApprentissage statistique en M1 (16h CM - 8h TD)\nVisualisation des données en M1 (24h TD)\nStatistique en grande dimension en M2 (16h CM - 8h TD)\n\n\n\nMaster Sciences du numériques et du sport\n\nVisualisation avec R (12h CM - 12h TD)",
+    "crumbs": [
+      "Enseignements",
+      "Présentation"
+    ]
   },
   {
     "objectID": "enseignement.html#cours-dans-dautres-formations",
     "href": "enseignement.html#cours-dans-dautres-formations",
     "title": "Présentation",
     "section": "Cours dans d’autres formations",
-    "text": "Cours dans d’autres formations\n\nCompléments de machine learning (notamment les SVM) et Introduction aux graphes dans le Master Data Science de l’Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d’Ivoire)\nDynamic data visualization dans le MSC Statistics for smart data à l’Ensai\nStatistique avec R dans le Magistère Sciences du Sport et Education Physique à l’ENS Rennes"
+    "text": "Cours dans d’autres formations\n\nCompléments de machine learning (notamment les SVM) et Introduction aux graphes dans le Master Data Science de l’Institut National Polytechnique Félix Houphouët Boiny à Yamoussoukro (Côte d’Ivoire)\nDynamic data visualization dans le MSC Statistics for smart data à l’Ensai\nStatistique avec R dans le Magistère Sciences du Sport et Education Physique à l’ENS Rennes",
+    "crumbs": [
+      "Enseignements",
+      "Présentation"
+    ]
   },
   {
     "objectID": "recherche/livres.html",
     "href": "recherche/livres.html",
     "title": "Livres",
     "section": "",
-    "text": "Titre : Régression avec R, 3ème édition, 2023\nAuteurs : Pierre-André Cornillon, Nicolas Hengartner, Eric Matzner-Løber, Laurent Rouvière\nEdition : EDP sciences\nSite Web : https://regression-avec-r.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R pour la statistique et la science des données, 2018\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Nicolas Klutchnikoff, Erwan Le Pennec, Eric Matzner-Lober, Laurent Rouvière, Benoît Thieurmel\nEdition : PUR\nSite Web : https://r-stat-sc-donnees.github.io\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : Statistiques avec R, 3ème édition, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : PUR\nSite Web : https://husson.github.io/StatR.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R for statistics, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : Chapman & Hall"
+    "text": "Titre : Régression avec R, 3ème édition, 2023\nAuteurs : Pierre-André Cornillon, Nicolas Hengartner, Eric Matzner-Løber, Laurent Rouvière\nEdition : EDP sciences\nSite Web : https://regression-avec-r.github.io\n\n\n\n\n\n\n\n\n\n\n\nTitre : R pour la statistique et la science des données, 2018\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Nicolas Klutchnikoff, Erwan Le Pennec, Eric Matzner-Lober, Laurent Rouvière, Benoît Thieurmel\nEdition : PUR\nSite Web : https://r-stat-sc-donnees.github.io\n\n\n\n\n\n\n\n\n\n\n\nTitre : Statistiques avec R, 3ème édition, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : PUR\nSite Web : https://husson.github.io/StatR.html\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTitre : R for statistics, 2012\nAuteurs : Pierre-André Cornillon, Arnaud Guyader, François Husson, Nicolas Jégou, Julie Josse, Maëlla Kloareg, Eric Matzner-Lober, Laurent Rouvière\nEdition : Chapman & Hall",
+    "crumbs": [
+      "Recherche",
+      "Livres"
+    ]
   },
   {
     "objectID": "cours/grande_dim.html",
     "href": "cours/grande_dim.html",
     "title": "Statistique en grande dimension",
     "section": "",
-    "text": "Ce cours, d’un niveau M2, propose quelques stratégies pour appréhender le problème de la grande dimension en apprentissage supervisé et non supervisé. Les thèmes suivants seront abordés :\n\nSupervisé\n\nPrésentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\nNon supervisé\n\nRappels sur les algorithmes standards\nDBSCAN et clustering spectral\n\n\n\nDocuments de cours\n\nPartie supervisée\n\nslides\nslides au format rapport\ntutoriel\n\nPartie non supervisée\n\nslides\nslides au format rapport\n\nQCM novembre 2022\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt\ndonclassif.txt\ndonclassif2.txt"
+    "text": "Ce cours, d’un niveau M2, propose quelques stratégies pour appréhender le problème de la grande dimension en apprentissage supervisé et non supervisé. Les thèmes suivants seront abordés :\n\nSupervisé\n\nPrésentation du fléau de la dimension\nRégression sur composantes : présentation des algorithmes PCR et PLS\nRégressions pénalisées : régularisation à l’aide de pénalités de type Ridge/Lasso\nModèle additif : conservation de la structure additive du modèle linéaire mais modélisation non paramétrique des composantes.\n\nNon supervisé\n\nRappels sur les algorithmes standards\nDBSCAN et clustering spectral\n\n\n\nDocuments de cours\n\nPartie supervisée\n\nslides\nslides au format rapport\ntutoriel\n\nPartie non supervisée\n\nslides\nslides au format rapport\n\nQCM novembre 2022\n\n\n\nDonnées\n\nad_data.txt\nech_signal.csv\nozone.txt\nozone_complet.txt\npanne.txt\nsignal.txt\ndonclassif.txt\ndonclassif2.txt",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Statistique en grande dimension"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html",
     "href": "cours/apprentissage_sup.html",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "",
-    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
+    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#app-sup",
     "href": "cours/apprentissage_sup.html#app-sup",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "",
-    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)"
+    "text": "Ce cours est dispensé dans différentes formations de niveau Master, ainsi qu’en formation continue. Les notions suivantes sont abordées :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nAlgorithmes linéaires\n\nMoindres carrés ordinaires\nSélection de variables\nRégularisation : ridge, lasso…\nSupport vector machine : cas séparable, non séparable et astuce du noyau\n\nAlgorithmes non linéaires\n\nArbres, notamment l’algorithme CART\nRéseaux de neurones : perceptron multicouches avec keras\n\nAgrégation\n\nForêts aléatoires\nGradient boosting\n\n\nSupports complet\n\nslides\nslides au format rapport (pour impression)\ntutoriel sans corrigés \ntutoriel avec corrigés (pas toujours disponible)",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#app-sup-M1MAS",
     "href": "cours/apprentissage_sup.html#app-sup-M1MAS",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Cours d’apprentissage supervisé en M1 MAS",
-    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1,2,3 6 et 5)\nQCM Avril 2022"
+    "text": "Cours d’apprentissage supervisé en M1 MAS\nCette partie est restreinte aux notions fondamentales de l’apprentissage supervisé. On y présente les fondamentaux sur le risque en machine learning ainsi que quelques algorithmes de référence :\n\nNotions de risque et calcul de risque en apprentissage supervisé, fonction de perte, méthodes de ré-échantillonnage (hold-out, validation croisée)\nMéthodes par arbres : algorithmes CART et forêts aléatoires\n\nSupports :\n\nslides\nslides au format rapport\ntutoriel (chapitres 1,2,3 6 et 5)\nQCM Avril 2022",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#intro-ML-L1Miashs",
     "href": "cours/apprentissage_sup.html#intro-ML-L1Miashs",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Cours d’intitiation au Machine Learning en L1 Miashs",
-    "text": "Cours d’intitiation au Machine Learning en L1 Miashs\nCe cours propose une introduction au Machine Learning accessible à des étudiants de niveau L1. Les thèmes suivants sont abordés :\n\nPrésentation et historique sur les notions d’Intelligence Artificielle, Machine Learning, Apprentissage…\nPrésentation des problèmes d’apprentissage supervisé et non supervisé\nQuelques algorithmes de machine learning : \\(k\\)-plus proches voisins, méthodes par arbre, \\(k\\)-means.\n\nSupports :\n\nslides\nslides au format rapport"
+    "text": "Cours d’intitiation au Machine Learning en L1 Miashs\nCe cours propose une introduction au Machine Learning accessible à des étudiants de niveau L1. Les thèmes suivants sont abordés :\n\nPrésentation et historique sur les notions d’Intelligence Artificielle, Machine Learning, Apprentissage…\nPrésentation des problèmes d’apprentissage supervisé et non supervisé\nQuelques algorithmes de machine learning : \\(k\\)-plus proches voisins, méthodes par arbre, \\(k\\)-means.\n\nSupports :\n\nslides\nslides au format rapport\nQCM 2023",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#donnees-des",
     "href": "cours/apprentissage_sup.html#donnees-des",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Données déséquilibrées",
-    "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel"
+    "text": "Données déséquilibrées\nOn étudie plus spécifiquement dans cette partie le cas où la variable cible est dite déséquilibrée (maladie rare, détection de fraudes, détection de churn…). Les algorithmes machine learning traditionnels peuvent être mis en difficulté dans ce cadre, notamment pour détecter la classe minoritaire. Nous présentons dans ce mini cours les bonnes pratiques à utiliser dans ce contexte. On se concentre notamment sur les critères adaptés au cas de données déséquilibrées ainsi sur quelques algorithmes de ré-équilibrage.\nDocuments de cours\n\nslides\nslides au format rapport\ntutoriel",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
     "href": "cours/apprentissage_sup.html#gradient-boosting-atelier-sfds-méthodes-par-arbres",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)",
-    "text": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel"
+    "text": "Gradient boosting (Atelier SFDS “Méthodes par Arbres”)\nOn se concentre ici sur le gradient boosting et sur l’algorithme xgboost.\n\nslides\nslides au format rapport\ntutoriel",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/apprentissage_sup.html#formation-continue",
     "href": "cours/apprentissage_sup.html#formation-continue",
     "title": "Apprentissage supervisé - Machine learning",
     "section": "Formation continue",
-    "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone"
+    "text": "Formation continue\n\nPartie cours\n\nslides complet\nslides au format rapport\n\nTutoriel\n\nversion non corrigée\nversion corrigée, en pdf\ncodes R\ndonnées ozone",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Apprentissage supervisé - Machine learning"
+    ]
   },
   {
     "objectID": "cours/graphes.html",
     "href": "cours/graphes.html",
     "title": "Graph Mining",
     "section": "",
-    "text": "On présente dans ce cours une introduction aux graphes. On introduira notamment"
+    "text": "On présente dans ce cours une introduction aux graphes. On introduira notamment",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Graph Mining"
+    ]
   },
   {
     "objectID": "cours/graphes.html#graphes",
     "href": "cours/graphes.html#graphes",
     "title": "Graph Mining",
     "section": "Documents de cours",
-    "text": "Documents de cours\n\nslides\nslides au format rapport\ntutoriel\ndonnées pour le tutoriel :\n\nMedia edges\nMedia nodes\nAmis\nLes misérables"
+    "text": "Documents de cours\n\nslides\nslides au format rapport\ntutoriel\ndonnées pour le tutoriel :\n\nMedia edges\nMedia nodes\nAmis\nLes misérables",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Graph Mining"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html",
     "href": "cours/visualisationR.html",
     "title": "Logiciel R - Visualisation",
     "section": "",
-    "text": "Ce cours présente une introduction au logiciel R et aux principaux outils de visualisation avec ce logiciel. Les thèmes suivants sont abordés :\n\nLogiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\n\n\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\n\n\nLogiciel R\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\n\nVisualisation\n\ngraphes classiques et ggplot2\n\nozone.txt\ntaches_solaires.csv\n\nBases de données\n\nChinook_Sqlite.sqlite\netat_velib_rennes.csv\ntopologie_velib_rennes.csv\netat-des-stations-le-velo-star-rennes.json\n\nCartes\n\ndpt.zip\npostesSynop.csv\nsynop.2018011215.csv\ntauxchomage.csv\nvilles_fr.csv\ncoord_ville_exo1.csv (géolocalisation des villes pour l’exercice 1 si besoin)\ncoord_ville_nc.csv (géolocalisation des villes pour la partie sf si besoin)\ndonnees_temp_fr.csv (données température pour le challenge si besoin)\nstation_temp_fr.csv (données station pour le challenge si besoin)\nregions-20180101-shp.zip\nsta.Paris.csv (données sur les stations velib si besoin)\n\nVisualisation dynamique\n\nDataset1-Media-Example-NODES.csv\nDataset1-Media-Example-EDGES.csv"
+    "text": "Ce cours présente une introduction au logiciel R et aux principaux outils de visualisation avec ce logiciel. Les thèmes suivants sont abordés :\n\nLogiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\n\n\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\n\n\nLogiciel R\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\n\nVisualisation\n\ngraphes classiques et ggplot2\n\nozone.txt\ntaches_solaires.csv\n\nBases de données\n\nChinook_Sqlite.sqlite\netat_velib_rennes.csv\ntopologie_velib_rennes.csv\netat-des-stations-le-velo-star-rennes.json\n\nCartes\n\ndpt.zip\npostesSynop.csv\nsynop.2018011215.csv\ntauxchomage.csv\nvilles_fr.csv\ncoord_ville_exo1.csv (géolocalisation des villes pour l’exercice 1 si besoin)\ncoord_ville_nc.csv (géolocalisation des villes pour la partie sf si besoin)\ndonnees_temp_fr.csv (données température pour le challenge si besoin)\nstation_temp_fr.csv (données station pour le challenge si besoin)\nregions-20180101-shp.zip\nsta.Paris.csv (données sur les stations velib si besoin)\n\nVisualisation dynamique\n\nDataset1-Media-Example-NODES.csv\nDataset1-Media-Example-EDGES.csv",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html#présentation",
     "href": "cours/visualisationR.html#présentation",
     "title": "Logiciel R - Visualisation",
     "section": "",
-    "text": "Ce cours présente une introduction au logiciel R et aux principaux outils de visualisation avec ce logiciel. Les thèmes suivants sont abordés :\n\nLogiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\n\n\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\n\n\nLogiciel R\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\n\nVisualisation\n\ngraphes classiques et ggplot2\n\nozone.txt\ntaches_solaires.csv\n\nBases de données\n\nChinook_Sqlite.sqlite\netat_velib_rennes.csv\ntopologie_velib_rennes.csv\netat-des-stations-le-velo-star-rennes.json\n\nCartes\n\ndpt.zip\npostesSynop.csv\nsynop.2018011215.csv\ntauxchomage.csv\nvilles_fr.csv\ncoord_ville_exo1.csv (géolocalisation des villes pour l’exercice 1 si besoin)\ncoord_ville_nc.csv (géolocalisation des villes pour la partie sf si besoin)\ndonnees_temp_fr.csv (données température pour le challenge si besoin)\nstation_temp_fr.csv (données station pour le challenge si besoin)\nregions-20180101-shp.zip\nsta.Paris.csv (données sur les stations velib si besoin)\n\nVisualisation dynamique\n\nDataset1-Media-Example-NODES.csv\nDataset1-Media-Example-EDGES.csv"
+    "text": "Ce cours présente une introduction au logiciel R et aux principaux outils de visualisation avec ce logiciel. Les thèmes suivants sont abordés :\n\nLogiciel R\n\nPrésentation du logiciel, environnement Rstudio, reporting avec quarto et Rmarkdown\nObjets R\nManipulation des données (essentiellement avec dplyr)\n\nVisualisation\n\nVisualisation statique (représentations standards et avec ggplot2)\nCartographie\n\nstatique avec ggmap et sf\ndynamiques avec leaflet\n\nVisualisation dynamique\n\ngraphes standards avec RamChartset plotly\nréseaux avec visNetwork\ntableaux de bord avec flexdashboard\n\n\nUn peu de statistique avec R\n\nRégression : ajustement de modèles, formules, prévisions…\nIntroduction au problème de l’estimation, lois de probabilités, notions d’estimateurs, performance d’estimateurs, intervalles de confiance.\n\n\n\n\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\n\n\nLogiciel R\n\nManipulation de données\n\nmydata.csv\nmydata2.csv\npiscines.csv\ntauxchomage.csv\nFrenchOpen-men-2013.csv\nWimbledon-men-2013.csv\n\n\nVisualisation\n\ngraphes classiques et ggplot2\n\nozone.txt\ntaches_solaires.csv\n\nBases de données\n\nChinook_Sqlite.sqlite\netat_velib_rennes.csv\ntopologie_velib_rennes.csv\netat-des-stations-le-velo-star-rennes.json\n\nCartes\n\ndpt.zip\npostesSynop.csv\nsynop.2018011215.csv\ntauxchomage.csv\nvilles_fr.csv\ncoord_ville_exo1.csv (géolocalisation des villes pour l’exercice 1 si besoin)\ncoord_ville_nc.csv (géolocalisation des villes pour la partie sf si besoin)\ndonnees_temp_fr.csv (données température pour le challenge si besoin)\nstation_temp_fr.csv (données station pour le challenge si besoin)\nregions-20180101-shp.zip\nsta.Paris.csv (données sur les stations velib si besoin)\n\nVisualisation dynamique\n\nDataset1-Media-Example-NODES.csv\nDataset1-Media-Example-EDGES.csv",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html#visuR-staps-ens",
     "href": "cours/visualisationR.html#visuR-staps-ens",
     "title": "Logiciel R - Visualisation",
     "section": "Cours Staps-ENS Rennes",
-    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel : chapitres 1,2,3 et 8.\nDevoir Octobre 2023\n\ndonnees1_2023\ndonnees2_2023\nCorrection"
+    "text": "Cours Staps-ENS Rennes\nCe cours de 20h propose une introduction au logiciel R et à la modélisation statistique.\n\nslides : jusqu’à ggplot2\nslides au format rapport (pour impression) : jusqu’à ggplot2\nslides - Partie stat\nslides - partie stat au format rapport (pour impression)\ntutoriel : chapitres 1,2,3 et 8.\nDevoir Octobre 2023\n\ndonnees1_2023\ndonnees2_2023\nCorrection",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html#visuR-SNS",
     "href": "cours/visualisationR.html#visuR-SNS",
     "title": "Logiciel R - Visualisation",
     "section": "Master SNS",
-    "text": "Master SNS\nCe cours de 24h propose une introduction au logiciel R et à quelques packages de visualisation (y compris les applications web avec shiny).\n\nslides - Partie R\nslides - Partie R au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R\n\nCorrections :\n\ninput/outputs : ui.R, server.R\nstructure : ui.R, server.R\nreactive/isolation/observe/html… : ui.R, server.R, global.R"
+    "text": "Master SNS\nCe cours de 24h propose une introduction au logiciel R et à quelques packages de visualisation (y compris les applications web avec shiny).\n\nslides - Partie R\nslides - Partie R au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R\n\nCorrections :\n\ninput/outputs : ui.R, server.R\nstructure : ui.R, server.R\nreactive/isolation/observe/html… : ui.R, server.R, global.R",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html#MAS",
     "href": "cours/visualisationR.html#MAS",
     "title": "Logiciel R - Visualisation",
     "section": "Master MAS",
-    "text": "Master MAS\n\nVisualisation des données\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\nLogiciel R avancé\n\nslides\nslides au format rapport"
+    "text": "Master MAS\n\nVisualisation des données\n\nslides\nslides au format rapport (pour impression)\ntutoriel\n\n\n\nLogiciel R avancé\n\nslides\nslides au format rapport",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/visualisationR.html#smart-data",
     "href": "cours/visualisationR.html#smart-data",
     "title": "Logiciel R - Visualisation",
     "section": "Master Statistics for smart data",
-    "text": "Master Statistics for smart data\n\nslides\nslides au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R\n\n\n\n\n\n\n  \n      \n         Apprentissage supervisé - Machine learning\n                \n  \n  \n      \n        Statistique en grande dimension"
+    "text": "Master Statistics for smart data\n\nslides\nslides au format rapport (pour impression)\ntutoriel\nPartie Shiny\n\ncours shiny\nApplications :\n\napp_structure : ui.R, server.R\n\n\n\n\n\n\n  \n      \n         Apprentissage supervisé - Machine learning\n                \n  \n  \n      \n        Statistique en grande dimension",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Logiciel R - Visualisation"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html",
     "href": "cours/autres_cours.html",
     "title": "Autres supports de cours",
     "section": "",
-    "text": "Ce cours est actuellement dispensé en L3 Miashs à Rennes.\n\nslides\nslides au format rapport (pour impression)\ntd\n\n\n\n\nCC1 - QCM\n\nnovembre2018\nnovembre2019\nnovembre2021\nnovembre2022\n\nCC2\n\ndecembre2017\ndecembre2018\ndecembre2019\ndecembre2020\ndecembre2021\ndecembre2022"
+    "text": "Ce cours est actuellement dispensé en L3 Miashs à Rennes.\n\nslides\nslides au format rapport (pour impression)\ntd\n\n\n\n\nCC1 - QCM\n\nnovembre2018\nnovembre2019\nnovembre2021\nnovembre2022\n\nCC2\n\ndecembre2017\ndecembre2018\ndecembre2019\ndecembre2020\ndecembre2021\ndecembre2022",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#stat-inf-L3Miashs",
     "href": "cours/autres_cours.html#stat-inf-L3Miashs",
     "title": "Autres supports de cours",
     "section": "",
-    "text": "Ce cours est actuellement dispensé en L3 Miashs à Rennes.\n\nslides\nslides au format rapport (pour impression)\ntd\n\n\n\n\nCC1 - QCM\n\nnovembre2018\nnovembre2019\nnovembre2021\nnovembre2022\n\nCC2\n\ndecembre2017\ndecembre2018\ndecembre2019\ndecembre2020\ndecembre2021\ndecembre2022"
+    "text": "Ce cours est actuellement dispensé en L3 Miashs à Rennes.\n\nslides\nslides au format rapport (pour impression)\ntd\n\n\n\n\nCC1 - QCM\n\nnovembre2018\nnovembre2019\nnovembre2021\nnovembre2022\n\nCC2\n\ndecembre2017\ndecembre2018\ndecembre2019\ndecembre2020\ndecembre2021\ndecembre2022",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#régression-logistique-et-scoring",
     "href": "cours/autres_cours.html#régression-logistique-et-scoring",
     "title": "Autres supports de cours",
     "section": "Régression logistique et scoring",
-    "text": "Régression logistique et scoring\nCours dispensé aux étudiants du M1 du Master de Mathématiques Appliqués, Statistiques de Rennes entre 2006 et 2015 ainsi qu’aux élèves 2A de l’ Ensai entre 2008 et 2012.\n\nslides\npoly"
+    "text": "Régression logistique et scoring\nCours dispensé aux étudiants du M1 du Master de Mathématiques Appliqués, Statistiques de Rennes entre 2006 et 2015 ainsi qu’aux élèves 2A de l’ Ensai entre 2008 et 2012.\n\nslides\npoly",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#statistique-pour-lingénieur",
     "href": "cours/autres_cours.html#statistique-pour-lingénieur",
     "title": "Autres supports de cours",
     "section": "Statistique pour l’ingénieur",
-    "text": "Statistique pour l’ingénieur\nCours dispensé aux élèves 1A de Centrale Supélec à Rennes entre 2010 et 2016.\n\nslides"
+    "text": "Statistique pour l’ingénieur\nCours dispensé aux élèves 1A de Centrale Supélec à Rennes entre 2010 et 2016.\n\nslides",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#probabilités",
     "href": "cours/autres_cours.html#probabilités",
     "title": "Autres supports de cours",
     "section": "Probabilités",
-    "text": "Probabilités\nCours dispensé aux élèves 1A de l’ Ensai entre 2009 et 2015.\n\npoly"
+    "text": "Probabilités\nCours dispensé aux élèves 1A de l’ Ensai entre 2009 et 2015.\n\npoly",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#algèbre-linéaire",
     "href": "cours/autres_cours.html#algèbre-linéaire",
     "title": "Autres supports de cours",
     "section": "Algèbre linéaire",
-    "text": "Algèbre linéaire\nCours dispensé aux étudiants de licences 2 MIASHS de Rennes entre 2006 et 2009.\n\npoly\ntd\ncorrection"
+    "text": "Algèbre linéaire\nCours dispensé aux étudiants de licences 2 MIASHS de Rennes entre 2006 et 2009.\n\npoly\ntd\ncorrection",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "cours/autres_cours.html#enquêtes-et-sondages-licence-3-aes",
     "href": "cours/autres_cours.html#enquêtes-et-sondages-licence-3-aes",
     "title": "Autres supports de cours",
     "section": "Enquêtes et sondages (licence 3 AES)",
-    "text": "Enquêtes et sondages (licence 3 AES)\nCours dispensé aux étudiants de licence 3 AES (assidu et SUED) entre 2006 et 2009.\n\npoly"
+    "text": "Enquêtes et sondages (licence 3 AES)\nCours dispensé aux étudiants de licence 3 AES (assidu et SUED) entre 2006 et 2009.\n\npoly",
+    "crumbs": [
+      "Enseignements",
+      "Supports de cours",
+      "Autres supports de cours"
+    ]
   },
   {
     "objectID": "recherche/articles.html",
     "href": "recherche/articles.html",
     "title": "Articles",
     "section": "",
-    "text": "Klutchnikoff, N., Poterie, A. et Rouvière, L. (2022). Statistical analysis of a hierarchical clustering algorithm with outliers, Journal of Multivariate Analysis, Vol.192, DOI:&lt;10.1016/j.jmva.2022.105075&gt;\nDufresne, S., Richard, C., Dieumegard, A., Orfila, L., Delpon, G., Chiavassa, S., Martin, B., Rouvière, L., Escoffre, J.M., Oujagir, E., de Senneville, B.D., Bouakaz, A., Rioux-Leclerq, N., Potiron, V. et Rébillard, A (2021). Voluntary Wheel Running Does Not Enhance Radiotherapy Efficiency in a Preclinical Model of Prostate Cancer: The Importance of Physical Activity Modalities? Cancers, Vol. 13(21), DOI:&lt;10.3390/cancers13215402&gt;\nDe Müllenheim, P.Y., Rouvière, L. , Emily, M., Chaudru, E., Kaladji, A., Mahé, G. et Le Faucheur, A (2021). Shoud I stay or should I go now?” Recovery time effect on walking capacity in symptomatic peripheral artery disease. Journal of applied physiology. Vol. 131(1), 207-219. DOI:&lt;10.1152/japplphysiol.00441.2020&gt;\nA. Poterie, J.F. Dupuy, V. Monbet et L. Rouvière (2019). Classification tree algorithm for grouped variables. Computational statistics. Vol. 34, pp. 1613-1648. DOI:&lt;10.1007/s00180-019-00894-y&gt;\nG. Biau, B. Cadre et L. Rouvière (2019). Accelerated gradient boosting. Machine Learning, Vol. 19, pp. 971-992. Télécharger AGB. DOI:&lt;10.1007/s10994-019-05787-1&gt;.\nN. Hengartner, E. Matzner-Løber, L. Rouvière et T. Burr (2018). Multiplicative bias corrected nonparametric smoothers. In Nonparametric statistics, Springer proceedings in Mathematics and Statistics, 3rd ISNPS, Avignon, 2016. DOI:&lt;10.1007/978-3-319-96941-1_3&gt;\nS. Auray, N. Klutchnikoff et L. Rouvière (2015). On clustering procedure and nonparametric mixture estimation. Electronic Journal of Statistics, Vol. 9, pp. 266-297. DOI:&lt;10.1214/15-EJS995&gt;\nT. Burr, N. Hengartner, E. Matzner-Løber, S. Myers et L. Rouvière (2011), Smoothing Low Resolution Spectral Data. IEEE Transactions on Nuclear Science, Vol. 57, pp. 2831–2840. DOI:&lt;10.1109/TNS.2010.2054110&gt;.\nG. Biau, B. Cadre et L. Rouvière (2010). Statistical analysis of k-nearest neighbor collaborative recommendation. The Annals of Statistics, Vol. 38, pp. 1568–1592.DOI:&lt;10.1214/09-AOS759&gt;\nG. Biau, O. Biau et L. Rouvière (2008). Nonparametric forecasting of the manufacturing output growth with firm-level survey data. Journal of Business Cycle Measurement and Analysis, Vol. 3 , pp. 317–332. DOI:&lt;10.1787/17293626&gt;\nA. Berlinet, G. Biau et L. Rouvière (2008). Functional classification with wavelets. Annales de l’ISUP, Vol. 52, pp. 61–80.\nL. Rouvière (2006). Sélection d’histogrammes modifiés itérés. Journal de la Société Française de Statistique, Vol. 147 , pp. 65–83.\nA. Berlinet, G. Biau et L. Rouvière (2005). Optimal \\(L_1\\) bandwidth selection for variable kernel density estimates. Statistics and Probability Letters, Vol. 74, pp. 116–128. DOI:&lt;10.1016/j.spl.2005.04.036&gt;\nA. Berlinet, G. Biau et L. Rouvière (2005). Parameter selection in modified histogram estimates. Statistics, Vol. 39 , pp. 91–105. DOI:&lt;10.1080/02331880500059713&gt;\nA. Berlinet et L. Rouvière (2005). Effective construction of modified histograms in higher dimensions. In Statistical Modeling and Analysis for Complex Data Problems, ed P. Duchesne et B. Rémillard. DOI:&lt;10.1007/0-387-24555-3_6&gt;"
+    "text": "Klutchnikoff, N., Poterie, A. et Rouvière, L. (2022). Statistical analysis of a hierarchical clustering algorithm with outliers, Journal of Multivariate Analysis, Vol.192, DOI:&lt;10.1016/j.jmva.2022.105075&gt;\nDufresne, S., Richard, C., Dieumegard, A., Orfila, L., Delpon, G., Chiavassa, S., Martin, B., Rouvière, L., Escoffre, J.M., Oujagir, E., de Senneville, B.D., Bouakaz, A., Rioux-Leclerq, N., Potiron, V. et Rébillard, A (2021). Voluntary Wheel Running Does Not Enhance Radiotherapy Efficiency in a Preclinical Model of Prostate Cancer: The Importance of Physical Activity Modalities? Cancers, Vol. 13(21), DOI:&lt;10.3390/cancers13215402&gt;\nDe Müllenheim, P.Y., Rouvière, L. , Emily, M., Chaudru, E., Kaladji, A., Mahé, G. et Le Faucheur, A (2021). Shoud I stay or should I go now?” Recovery time effect on walking capacity in symptomatic peripheral artery disease. Journal of applied physiology. Vol. 131(1), 207-219. DOI:&lt;10.1152/japplphysiol.00441.2020&gt;\nA. Poterie, J.F. Dupuy, V. Monbet et L. Rouvière (2019). Classification tree algorithm for grouped variables. Computational statistics. Vol. 34, pp. 1613-1648. DOI:&lt;10.1007/s00180-019-00894-y&gt;\nG. Biau, B. Cadre et L. Rouvière (2019). Accelerated gradient boosting. Machine Learning, Vol. 19, pp. 971-992. Télécharger AGB. DOI:&lt;10.1007/s10994-019-05787-1&gt;.\nN. Hengartner, E. Matzner-Løber, L. Rouvière et T. Burr (2018). Multiplicative bias corrected nonparametric smoothers. In Nonparametric statistics, Springer proceedings in Mathematics and Statistics, 3rd ISNPS, Avignon, 2016. DOI:&lt;10.1007/978-3-319-96941-1_3&gt;\nS. Auray, N. Klutchnikoff et L. Rouvière (2015). On clustering procedure and nonparametric mixture estimation. Electronic Journal of Statistics, Vol. 9, pp. 266-297. DOI:&lt;10.1214/15-EJS995&gt;\nT. Burr, N. Hengartner, E. Matzner-Løber, S. Myers et L. Rouvière (2011), Smoothing Low Resolution Spectral Data. IEEE Transactions on Nuclear Science, Vol. 57, pp. 2831–2840. DOI:&lt;10.1109/TNS.2010.2054110&gt;.\nG. Biau, B. Cadre et L. Rouvière (2010). Statistical analysis of k-nearest neighbor collaborative recommendation. The Annals of Statistics, Vol. 38, pp. 1568–1592.DOI:&lt;10.1214/09-AOS759&gt;\nG. Biau, O. Biau et L. Rouvière (2008). Nonparametric forecasting of the manufacturing output growth with firm-level survey data. Journal of Business Cycle Measurement and Analysis, Vol. 3 , pp. 317–332. DOI:&lt;10.1787/17293626&gt;\nA. Berlinet, G. Biau et L. Rouvière (2008). Functional classification with wavelets. Annales de l’ISUP, Vol. 52, pp. 61–80.\nL. Rouvière (2006). Sélection d’histogrammes modifiés itérés. Journal de la Société Française de Statistique, Vol. 147 , pp. 65–83.\nA. Berlinet, G. Biau et L. Rouvière (2005). Optimal \\(L_1\\) bandwidth selection for variable kernel density estimates. Statistics and Probability Letters, Vol. 74, pp. 116–128. DOI:&lt;10.1016/j.spl.2005.04.036&gt;\nA. Berlinet, G. Biau et L. Rouvière (2005). Parameter selection in modified histogram estimates. Statistics, Vol. 39 , pp. 91–105. DOI:&lt;10.1080/02331880500059713&gt;\nA. Berlinet et L. Rouvière (2005). Effective construction of modified histograms in higher dimensions. In Statistical Modeling and Analysis for Complex Data Problems, ed P. Duchesne et B. Rémillard. DOI:&lt;10.1007/0-387-24555-3_6&gt;",
+    "crumbs": [
+      "Recherche",
+      "Articles"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Fonctions et CV",
     "section": "",
-    "text": "Maître de conférences à l’Université Rennes 2"
+    "text": "Maître de conférences à l’Université Rennes 2",
+    "crumbs": [
+      "Fonctions et CV"
+    ]
   },
   {
     "objectID": "index.html#coordonnées",
     "href": "index.html#coordonnées",
     "title": "Fonctions et CV",
     "section": "Coordonnées",
-    "text": "Coordonnées\nUniversité Rennes 2, Département Miashs\nPlace du recteur Henri le Moal, CS 24307\n35 043 Rennes cedex\nTéléphone : 02 99 14 18 06\nEmail : laurent.rouviere@univ-rennes2.fr"
+    "text": "Coordonnées\nUniversité Rennes 2, Département Miashs\nPlace du recteur Henri le Moal, CS 24307\n35 043 Rennes cedex\nTéléphone : 02 99 14 18 06\nEmail : laurent.rouviere@univ-rennes2.fr",
+    "crumbs": [
+      "Fonctions et CV"
+    ]
   },
   {
     "objectID": "index.html#fonctions-et-responsabilités",
     "href": "index.html#fonctions-et-responsabilités",
     "title": "Fonctions et CV",
     "section": "Fonctions et responsabilités",
-    "text": "Fonctions et responsabilités\n\nEnseignant chercheur en Mathématiques Appliquées, affilié au département MIASHS et à la composante Rennes 2 de l’équipe de Statistique de l’IRMAR.\nCo-responsable du Master Mathématiques Appliquées, Statistique (MAS), Universités de Rennes 1 et Rennes 2, Institut Agro Rennes-Angers, Ensai.\nResponsable du parcours Science des données, Intelligence Artificielle du Master MAS, Université Rennes 2.\nDiaporama de présentation du Master"
+    "text": "Fonctions et responsabilités\n\nEnseignant chercheur en Mathématiques Appliquées, affilié au département MIASHS et à la composante Rennes 2 de l’équipe de Statistique de l’IRMAR.\nCo-responsable du Master Mathématiques Appliquées, Statistique (MAS), Universités de Rennes 1 et Rennes 2, Institut Agro Rennes-Angers, Ensai.\nResponsable du parcours Science des données, Intelligence Artificielle du Master MAS, Université Rennes 2.\nDiaporama de présentation du Master",
+    "crumbs": [
+      "Fonctions et CV"
+    ]
   },
   {
     "objectID": "index.html#parcours",
     "href": "index.html#parcours",
     "title": "Fonctions et CV",
     "section": "Parcours",
-    "text": "Parcours\n\n\n\n\n\n\n\n2006 - …\nMaître de Conférences, Université Rennes 2\nDétachement sur un poste d’enseignant chercheur à l’Ensai entre 2009 et 2015\n\n\n2005 - 2006\nATER, Université Rennes 2\n\n\n2002 - 2005\nDoctorat de Mathématiques Appliquées, Université Montpellier 2\n\nTitre : Estimation de densité en dimension élevée et classification de courbes\nDirecteurs de thèse : Alain Berlinet (Professeur, Université Montpellier 2) et Gérard Biau (Professeur, Sorbonne Université)\n\n\n\n\nTélécharger mon cv complet"
+    "text": "Parcours\n\n\n\n\n\n\n\n2006 - …\nMaître de Conférences, Université Rennes 2\nDétachement sur un poste d’enseignant chercheur à l’Ensai entre 2009 et 2015\n\n\n2005 - 2006\nATER, Université Rennes 2\n\n\n2002 - 2005\nDoctorat de Mathématiques Appliquées, Université Montpellier 2\n\nTitre : Estimation de densité en dimension élevée et classification de courbes\nDirecteurs de thèse : Alain Berlinet (Professeur, Université Montpellier 2) et Gérard Biau (Professeur, Sorbonne Université)\n\n\n\n\nTélécharger mon cv complet",
+    "crumbs": [
+      "Fonctions et CV"
+    ]
   }
 ]
